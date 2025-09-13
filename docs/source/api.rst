@@ -1,5 +1,4 @@
 Basic Data Types
-
 ===================================
 
 There are 4 basic data types:
@@ -13,5 +12,4 @@ There are 4 basic data types:
 - **Pointer** are objects that store a memory address. This type is for solving that pointers are stored in an integer in BlitzBasic.
 
 Implicit conversion
-
 ======================================
