@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'ZiYue4D'
+copyright = '2025 ZiYueCommentary'
+author = 'ZiYueCommentary'
 
 release = '0.1'
 version = '0.1.0'
