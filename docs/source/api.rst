@@ -1,6 +1,6 @@
 Basic Data Types
 
-===
+===================================
 
 There are 4 basic data types:
 
@@ -14,5 +14,4 @@ There are 4 basic data types:
 
 Implicit conversion
 
-===
-
+======================================
