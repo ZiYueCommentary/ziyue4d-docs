@@ -7,22 +7,24 @@ msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-14 12:34+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-14 04:48+0000\n"
+"Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://"
+"weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../api.rst:2
 msgid "Basic Data Types"
-msgstr ""
+msgstr "基本数据类型"
 
 #: ../api.rst:4
 msgid "There are 4 basic data types:"
-msgstr ""
+msgstr "ZiYue4D 中共有 4 种数据类型："
 
 #: ../api.rst:6
 msgid "**Integer** are numeric values with no fractional part in them. For example: 5,-10,0 are integer values. All integer values in your program must be in the range -2147483648 to +2147483647."
@@ -46,11 +48,11 @@ msgstr ""
 
 #: ../index.rst:2
 msgid "Welcome to ZiYue4D documentation!"
-msgstr ""
+msgstr "欢迎来到 ZiYue4D 文档！"
 
 #: ../index.rst:4
 msgid "**ZiYue4D** is a programming language that is powered by LLVM and is based on BlitzBasic."
-msgstr ""
+msgstr "**ZiYue4D** 是一个基于 BlitzBasic 的，由 LLVM 驱动的编程语言。"
 
 #: ../index.rst:8
 msgid "This project is under active development."
