@@ -7,34 +7,38 @@ msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-20 22:37+0800\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2025-09-20 15:42+0000\n"
+"Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://"
+"weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../../basic-data-types.rst:2
 msgid "Basic Data Types"
-msgstr ""
+msgstr "基本数据类型"
 
 #: ../../basic-data-types.rst:4
 msgid "There are 4 basic data types:"
-msgstr ""
+msgstr "ZiYue4D 中共有 4 种数据类型："
 
 #: ../../basic-data-types.rst:6
 msgid "**Integer** are numeric values with no fractional part in them. For example: 5,-10,0 are integer values. All integer values in your program must be in the range -2147483648 to +2147483647."
 msgstr ""
+"**整数** 是没有小数部分的数值。例如：5、-10、0是整数值。"
+"程序中的所有整数值必须在 -2147483648 到 +2147483647 的范围内。"
 
 #: ../../basic-data-types.rst:8
 msgid "**Float** are numeric values that include a fractional part. For example: .5, -10.1, 0.0 are all floating point values."
-msgstr ""
+msgstr "**浮点数** 是包含小数部分的数值。例如：.5、-10.1、0.0 都是浮点值。"
 
 #: ../../basic-data-types.rst:10
 msgid "**String** are used to contain text. For example: \"Hello World!\"."
-msgstr ""
+msgstr "**字符串** 用于包含文本。例如：\"你好，世界！\"。"
 
 #: ../../basic-data-types.rst:12
 msgid "**Pointer** are objects that store a memory address. This type is for solving that pointers are stored in an integer in BlitzBasic."
@@ -42,7 +46,7 @@ msgstr ""
 
 #: ../../basic-data-types.rst:15
 msgid "Implicit conversion"
-msgstr ""
+msgstr "隐式转换"
 
 #: ../../basic-data-types.rst:17
 msgid "**Implicit conversion** plays an important role in ZiYue4D. Most of the conversion in ZiYue4D is implicit, and observes the same rules as in BlitzBasic."
@@ -54,57 +58,57 @@ msgstr ""
 
 #: ../../basic-data-types.rst:22
 msgid "From \\\\ To"
-msgstr ""
+msgstr "自 \\\\ 至"
 
 #: ../../basic-data-types.rst:22
 #: ../../basic-data-types.rst:24
 msgid "Integer"
-msgstr ""
+msgstr "整数"
 
 #: ../../basic-data-types.rst:22
 #: ../../basic-data-types.rst:26
 msgid "Float"
-msgstr ""
+msgstr "浮点"
 
 #: ../../basic-data-types.rst:22
 #: ../../basic-data-types.rst:28
 msgid "String"
-msgstr ""
+msgstr "字符串"
 
 #: ../../basic-data-types.rst:22
 #: ../../basic-data-types.rst:30
 msgid "Pointer"
-msgstr ""
+msgstr "指针"
 
 #: ../../basic-data-types.rst:24
 #: ../../basic-data-types.rst:26
 #: ../../basic-data-types.rst:28
 #: ../../basic-data-types.rst:30
 msgid "✅"
-msgstr ""
+msgstr "✅"
 
 #: ../../basic-data-types.rst:24
 #: ../../basic-data-types.rst:26
 #: ../../basic-data-types.rst:28
 #: ../../basic-data-types.rst:30
 msgid "❌"
-msgstr ""
+msgstr "❌"
 
 #: ../../basic-data-types.rst:26
 msgid "❗ [#f1]_"
-msgstr ""
+msgstr "❗ [#f1]_"
 
 #: ../../basic-data-types.rst:30
 msgid "❗ [#f2]_"
-msgstr ""
+msgstr "❗ [#f2]_"
 
 #: ../../basic-data-types.rst:33
 msgid "Footnotes"
-msgstr ""
+msgstr "脚注"
 
 #: ../../basic-data-types.rst:34
 msgid "Float to Integer conversion truncates the fractional part. This may leads to loss of accuracy."
-msgstr ""
+msgstr "浮点转整数会丢弃小数部分，可能导致精度丢失。"
 
 #: ../../basic-data-types.rst:35
 msgid "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to Pointer type automatically."
@@ -112,11 +116,11 @@ msgstr ""
 
 #: ../../index.rst:2
 msgid "Welcome to ZiYue4D documentation!"
-msgstr ""
+msgstr "欢迎来到 ZiYue4D 文档！"
 
 #: ../../index.rst:4
 msgid "**ZiYue4D** is a programming language that is powered by LLVM and is based on BlitzBasic."
-msgstr ""
+msgstr "**ZiYue4D** 是一个基于 BlitzBasic 设计的，由 LLVM 驱动的编程语言。"
 
 #: ../../index.rst:8
 msgid "This project is under active development."
