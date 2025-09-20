@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-14 12:34+0800\n"
+"POT-Creation-Date: 2025-09-20 22:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,46 +16,112 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../api.rst:2
+#: ../../basic-data-types.rst:2
 msgid "Basic Data Types"
 msgstr ""
 
-#: ../api.rst:4
+#: ../../basic-data-types.rst:4
 msgid "There are 4 basic data types:"
 msgstr ""
 
-#: ../api.rst:6
+#: ../../basic-data-types.rst:6
 msgid "**Integer** are numeric values with no fractional part in them. For example: 5,-10,0 are integer values. All integer values in your program must be in the range -2147483648 to +2147483647."
 msgstr ""
 
-#: ../api.rst:8
+#: ../../basic-data-types.rst:8
 msgid "**Float** are numeric values that include a fractional part. For example: .5, -10.1, 0.0 are all floating point values."
 msgstr ""
 
-#: ../api.rst:10
+#: ../../basic-data-types.rst:10
 msgid "**String** are used to contain text. For example: \"Hello World!\"."
 msgstr ""
 
-#: ../api.rst:12
+#: ../../basic-data-types.rst:12
 msgid "**Pointer** are objects that store a memory address. This type is for solving that pointers are stored in an integer in BlitzBasic."
 msgstr ""
 
-#: ../api.rst:15
+#: ../../basic-data-types.rst:15
 msgid "Implicit conversion"
 msgstr ""
 
-#: ../index.rst:2
+#: ../../basic-data-types.rst:17
+msgid "**Implicit conversion** plays an important role in ZiYue4D. Most of the conversion in ZiYue4D is implicit, and observes the same rules as in BlitzBasic."
+msgstr ""
+
+#: ../../basic-data-types.rst:19
+msgid "When an operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:"
+msgstr ""
+
+#: ../../basic-data-types.rst:22
+msgid "From \\\\ To"
+msgstr ""
+
+#: ../../basic-data-types.rst:22
+#: ../../basic-data-types.rst:24
+msgid "Integer"
+msgstr ""
+
+#: ../../basic-data-types.rst:22
+#: ../../basic-data-types.rst:26
+msgid "Float"
+msgstr ""
+
+#: ../../basic-data-types.rst:22
+#: ../../basic-data-types.rst:28
+msgid "String"
+msgstr ""
+
+#: ../../basic-data-types.rst:22
+#: ../../basic-data-types.rst:30
+msgid "Pointer"
+msgstr ""
+
+#: ../../basic-data-types.rst:24
+#: ../../basic-data-types.rst:26
+#: ../../basic-data-types.rst:28
+#: ../../basic-data-types.rst:30
+msgid "✅"
+msgstr ""
+
+#: ../../basic-data-types.rst:24
+#: ../../basic-data-types.rst:26
+#: ../../basic-data-types.rst:28
+#: ../../basic-data-types.rst:30
+msgid "❌"
+msgstr ""
+
+#: ../../basic-data-types.rst:26
+msgid "❗ [#f1]_"
+msgstr ""
+
+#: ../../basic-data-types.rst:30
+msgid "❗ [#f2]_"
+msgstr ""
+
+#: ../../basic-data-types.rst:33
+msgid "Footnotes"
+msgstr ""
+
+#: ../../basic-data-types.rst:34
+msgid "Float to Integer conversion truncates the fractional part. This may leads to loss of accuracy."
+msgstr ""
+
+#: ../../basic-data-types.rst:35
+msgid "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to Pointer type automatically."
+msgstr ""
+
+#: ../../index.rst:2
 msgid "Welcome to ZiYue4D documentation!"
 msgstr ""
 
-#: ../index.rst:4
+#: ../../index.rst:4
 msgid "**ZiYue4D** is a programming language that is powered by LLVM and is based on BlitzBasic."
 msgstr ""
 
-#: ../index.rst:8
+#: ../../index.rst:8
 msgid "This project is under active development."
 msgstr ""
 
-#: ../index.rst:11
+#: ../../index.rst:11
 msgid "Contents"
 msgstr ""
