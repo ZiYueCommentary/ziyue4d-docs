@@ -12,4 +12,4 @@ Contents
 
 .. toctree::
 
-   api
+   basic-data-types
