@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-20 22:37+0800\n"
+"POT-Creation-Date: 2025-09-21 22:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,65 +49,97 @@ msgid "**Implicit conversion** plays an important role in ZiYue4D. Most of the c
 msgstr ""
 
 #: ../../basic-data-types.rst:19
-msgid "When an operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:"
+msgid "When an binary operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:"
+msgstr ""
+
+#: ../../basic-data-types.rst:21
+msgid "Pointers cannot be converted to any other type, and no other type can be converted to pointers. [#f1]_"
 msgstr ""
 
 #: ../../basic-data-types.rst:22
+msgid "If one operand is a string, the other is converted to a string."
+msgstr ""
+
+#: ../../basic-data-types.rst:23
+msgid "If one operand is floating point, the other is converted to floating point."
+msgstr ""
+
+#: ../../basic-data-types.rst:24
+msgid "Otherwise, both operands are integers."
+msgstr ""
+
+#: ../../basic-data-types.rst:27
 msgid "From \\\\ To"
 msgstr ""
 
-#: ../../basic-data-types.rst:22
-#: ../../basic-data-types.rst:24
+#: ../../basic-data-types.rst:27
+#: ../../basic-data-types.rst:29
 msgid "Integer"
 msgstr ""
 
-#: ../../basic-data-types.rst:22
-#: ../../basic-data-types.rst:26
+#: ../../basic-data-types.rst:27
+#: ../../basic-data-types.rst:31
 msgid "Float"
 msgstr ""
 
-#: ../../basic-data-types.rst:22
-#: ../../basic-data-types.rst:28
+#: ../../basic-data-types.rst:27
+#: ../../basic-data-types.rst:33
 msgid "String"
 msgstr ""
 
-#: ../../basic-data-types.rst:22
-#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:27
+#: ../../basic-data-types.rst:35
 msgid "Pointer"
 msgstr ""
 
-#: ../../basic-data-types.rst:24
-#: ../../basic-data-types.rst:26
-#: ../../basic-data-types.rst:28
-#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:29
+#: ../../basic-data-types.rst:31
+#: ../../basic-data-types.rst:33
+#: ../../basic-data-types.rst:35
 msgid "✅"
 msgstr ""
 
-#: ../../basic-data-types.rst:24
-#: ../../basic-data-types.rst:26
-#: ../../basic-data-types.rst:28
-#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:29
+#: ../../basic-data-types.rst:31
+#: ../../basic-data-types.rst:33
+#: ../../basic-data-types.rst:35
 msgid "❌"
 msgstr ""
 
-#: ../../basic-data-types.rst:26
-msgid "❗ [#f1]_"
-msgstr ""
-
-#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:31
 msgid "❗ [#f2]_"
 msgstr ""
 
-#: ../../basic-data-types.rst:33
+#: ../../basic-data-types.rst:35
+msgid "❗ [#f3]_"
+msgstr ""
+
+#: ../../basic-data-types.rst:38
 msgid "Footnotes"
 msgstr ""
 
-#: ../../basic-data-types.rst:34
-msgid "Float to Integer conversion truncates the fractional part. This may leads to loss of accuracy."
+#: ../../basic-data-types.rst:39
+msgid "When assigning a pointer to an integer variable, ZiYue4D will automatically raise the variable to pointer type."
 msgstr ""
 
-#: ../../basic-data-types.rst:35
-msgid "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to Pointer type automatically."
+#: ../../basic-data-types.rst:40
+msgid "Float to Integer will round to the nearest integer. This may lead to loss of accuracy."
+msgstr ""
+
+#: ../../basic-data-types.rst:41
+msgid "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to pointer type automatically."
+msgstr ""
+
+#: ../../comments.rst:2
+msgid "Comments"
+msgstr ""
+
+#: ../../comments.rst:4
+msgid "You add comments to your programs using the ``;`` character. Everything following ``;`` until the end of the line will be ignored."
+msgstr ""
+
+#: ../../comments.rst:6
+msgid "``/* */`` is also supported for block comments. Everything between ``/*`` and ``*/`` will be ignored, even if it spans multiple lines. Block comments do not nest."
 msgstr ""
 
 #: ../../index.rst:2

@@ -12,4 +12,5 @@ Contents
 
 .. toctree::
 
+   comments
    basic-data-types

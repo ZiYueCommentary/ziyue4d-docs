@@ -16,20 +16,26 @@ Implicit conversion
 
 **Implicit conversion** plays an important role in ZiYue4D. Most of the conversion in ZiYue4D is implicit, and observes the same rules as in BlitzBasic.
 
-When an operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:
+When an binary operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:
+
+* Pointers cannot be converted to any other type, and no other type can be converted to pointers. [#f1]_
+* If one operand is a string, the other is converted to a string.
+* If one operand is floating point, the other is converted to floating point.
+* Otherwise, both operands are integers.
 
 +------------+---------+-------+--------+---------+
 | From \\ To | Integer | Float | String | Pointer |
 +============+=========+=======+========+=========+
 | Integer    | ✅      | ✅    | ✅     | ❌      |
 +------------+---------+-------+--------+---------+
-| Float      |❗ [#f1]_| ✅    | ✅     | ❌      |
+| Float      |❗ [#f2]_| ✅    | ✅     | ❌      |
 +------------+---------+-------+--------+---------+
 | String     | ❌      | ❌    | ✅     | ❌      |
 +------------+---------+-------+--------+---------+
-| Pointer    |❗ [#f2]_| ❌    | ❌     | ✅      |
+| Pointer    |❗ [#f3]_| ❌    | ❌     | ✅      |
 +------------+---------+-------+--------+---------+
 
 .. rubric:: Footnotes
-.. [#f1] Float to Integer conversion truncates the fractional part. This may leads to loss of accuracy.
-.. [#f2] Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to Pointer type automatically.
+.. [#f1] When assigning a pointer to an integer variable, ZiYue4D will automatically raise the variable to pointer type.
+.. [#f2] Float to Integer will round to the nearest integer. This may lead to loss of accuracy.
+.. [#f3] Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to pointer type automatically.
