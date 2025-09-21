@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-20 22:37+0800\n"
+"POT-Creation-Date: 2025-09-21 22:00+0800\n"
 "PO-Revision-Date: 2025-09-20 15:42+0000\n"
 "Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -27,13 +27,18 @@ msgid "There are 4 basic data types:"
 msgstr "ZiYue4D 中共有 4 种数据类型："
 
 #: ../../basic-data-types.rst:6
-msgid "**Integer** are numeric values with no fractional part in them. For example: 5,-10,0 are integer values. All integer values in your program must be in the range -2147483648 to +2147483647."
+msgid ""
+"**Integer** are numeric values with no fractional part in them. For example: "
+"5,-10,0 are integer values. All integer values in your program must be in "
+"the range -2147483648 to +2147483647."
 msgstr ""
-"**整数** 是没有小数部分的数值。例如：5、-10、0是整数值。"
-"程序中的所有整数值必须在 -2147483648 到 +2147483647 的范围内。"
+"**整数** 是没有小数部分的数值。例如：5、-10、0是整数值。程序中的所有整数值必"
+"须在 -2147483648 到 +2147483647 的范围内。"
 
 #: ../../basic-data-types.rst:8
-msgid "**Float** are numeric values that include a fractional part. For example: .5, -10.1, 0.0 are all floating point values."
+msgid ""
+"**Float** are numeric values that include a fractional part. For example: "
+".5, -10.1, 0.0 are all floating point values."
 msgstr "**浮点数** 是包含小数部分的数值。例如：.5、-10.1、0.0 都是浮点值。"
 
 #: ../../basic-data-types.rst:10
@@ -41,7 +46,9 @@ msgid "**String** are used to contain text. For example: \"Hello World!\"."
 msgstr "**字符串** 用于包含文本。例如：\"你好，世界！\"。"
 
 #: ../../basic-data-types.rst:12
-msgid "**Pointer** are objects that store a memory address. This type is for solving that pointers are stored in an integer in BlitzBasic."
+msgid ""
+"**Pointer** are objects that store a memory address. This type is for "
+"solving that pointers are stored in an integer in BlitzBasic."
 msgstr ""
 
 #: ../../basic-data-types.rst:15
@@ -49,69 +56,119 @@ msgid "Implicit conversion"
 msgstr "隐式转换"
 
 #: ../../basic-data-types.rst:17
-msgid "**Implicit conversion** plays an important role in ZiYue4D. Most of the conversion in ZiYue4D is implicit, and observes the same rules as in BlitzBasic."
+msgid ""
+"**Implicit conversion** plays an important role in ZiYue4D. Most of the "
+"conversion in ZiYue4D is implicit, and observes the same rules as in "
+"BlitzBasic."
 msgstr ""
 
 #: ../../basic-data-types.rst:19
-msgid "When an operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:"
+msgid ""
+"When an binary operation involves two different data types, ZiYue4D will "
+"automatically convert one of the operands to the other type. The conversion "
+"rules are as follows:"
+msgstr ""
+
+#: ../../basic-data-types.rst:21
+msgid ""
+"Pointers cannot be converted to any other type, and no other type can be "
+"converted to pointers. [#f1]_"
 msgstr ""
 
 #: ../../basic-data-types.rst:22
+msgid "If one operand is a string, the other is converted to a string."
+msgstr ""
+
+#: ../../basic-data-types.rst:23
+msgid ""
+"If one operand is floating point, the other is converted to floating point."
+msgstr ""
+
+#: ../../basic-data-types.rst:24
+msgid "Otherwise, both operands are integers."
+msgstr ""
+
+#: ../../basic-data-types.rst:27
 msgid "From \\\\ To"
 msgstr "自 \\\\ 至"
 
-#: ../../basic-data-types.rst:22
-#: ../../basic-data-types.rst:24
+#: ../../basic-data-types.rst:27 ../../basic-data-types.rst:29
 msgid "Integer"
 msgstr "整数"
 
-#: ../../basic-data-types.rst:22
-#: ../../basic-data-types.rst:26
+#: ../../basic-data-types.rst:27 ../../basic-data-types.rst:31
 msgid "Float"
 msgstr "浮点"
 
-#: ../../basic-data-types.rst:22
-#: ../../basic-data-types.rst:28
+#: ../../basic-data-types.rst:27 ../../basic-data-types.rst:33
 msgid "String"
 msgstr "字符串"
 
-#: ../../basic-data-types.rst:22
-#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:27 ../../basic-data-types.rst:35
 msgid "Pointer"
 msgstr "指针"
 
-#: ../../basic-data-types.rst:24
-#: ../../basic-data-types.rst:26
-#: ../../basic-data-types.rst:28
-#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:29 ../../basic-data-types.rst:31
+#: ../../basic-data-types.rst:33 ../../basic-data-types.rst:35
 msgid "✅"
 msgstr "✅"
 
-#: ../../basic-data-types.rst:24
-#: ../../basic-data-types.rst:26
-#: ../../basic-data-types.rst:28
-#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:29 ../../basic-data-types.rst:31
+#: ../../basic-data-types.rst:33 ../../basic-data-types.rst:35
 msgid "❌"
 msgstr "❌"
 
-#: ../../basic-data-types.rst:26
-msgid "❗ [#f1]_"
-msgstr "❗ [#f1]_"
-
-#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:31
 msgid "❗ [#f2]_"
 msgstr "❗ [#f2]_"
 
-#: ../../basic-data-types.rst:33
+#: ../../basic-data-types.rst:35
+#, fuzzy
+#| msgid "❗ [#f1]_"
+msgid "❗ [#f3]_"
+msgstr "❗ [#f1]_"
+
+#: ../../basic-data-types.rst:38
 msgid "Footnotes"
 msgstr "脚注"
 
-#: ../../basic-data-types.rst:34
-msgid "Float to Integer conversion truncates the fractional part. This may leads to loss of accuracy."
+#: ../../basic-data-types.rst:39
+msgid ""
+"When assigning a pointer to an integer variable, ZiYue4D will automatically "
+"raise the variable to pointer type."
+msgstr ""
+
+#: ../../basic-data-types.rst:40
+#, fuzzy
+#| msgid ""
+#| "Float to Integer conversion truncates the fractional part. This may leads "
+#| "to loss of accuracy."
+msgid ""
+"Float to Integer will round to the nearest integer. This may lead to loss of "
+"accuracy."
 msgstr "浮点转整数会丢弃小数部分，可能导致精度丢失。"
 
-#: ../../basic-data-types.rst:35
-msgid "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to Pointer type automatically."
+#: ../../basic-data-types.rst:41
+msgid ""
+"Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D "
+"will raise the variable to pointer type automatically."
+msgstr ""
+
+#: ../../comments.rst:2
+msgid "Comments"
+msgstr ""
+
+#: ../../comments.rst:4
+msgid ""
+"You add comments to your programs using the ``;`` character. Everything "
+"following ``;`` until the end of the line will be ignored."
+msgstr ""
+
+#: ../../comments.rst:6
+msgid ""
+"``/* */`` is also supported for block comments. Everything between ``/*`` "
+"and ``*/`` will be ignored, even if it spans multiple lines. Block comments "
+"do not nest."
 msgstr ""
 
 #: ../../index.rst:2
@@ -119,7 +176,9 @@ msgid "Welcome to ZiYue4D documentation!"
 msgstr "欢迎来到 ZiYue4D 文档！"
 
 #: ../../index.rst:4
-msgid "**ZiYue4D** is a programming language that is powered by LLVM and is based on BlitzBasic."
+msgid ""
+"**ZiYue4D** is a programming language that is powered by LLVM and is based "
+"on BlitzBasic."
 msgstr "**ZiYue4D** 是一个基于 BlitzBasic 设计的，由 LLVM 驱动的编程语言。"
 
 #: ../../index.rst:8
