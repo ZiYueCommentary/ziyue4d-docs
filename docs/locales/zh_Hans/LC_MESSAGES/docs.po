@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-21 22:00+0800\n"
-"PO-Revision-Date: 2025-09-20 15:42+0000\n"
+"PO-Revision-Date: 2025-09-21 14:15+0000\n"
 "Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
@@ -73,7 +73,7 @@ msgstr ""
 msgid ""
 "Pointers cannot be converted to any other type, and no other type can be "
 "converted to pointers. [#f1]_"
-msgstr ""
+msgstr "指针不能转换为其他类型，也没有其他类型可以转换为指针。[#f1]_"
 
 #: ../../basic-data-types.rst:22
 msgid "If one operand is a string, the other is converted to a string."
@@ -123,10 +123,8 @@ msgid "❗ [#f2]_"
 msgstr "❗ [#f2]_"
 
 #: ../../basic-data-types.rst:35
-#, fuzzy
-#| msgid "❗ [#f1]_"
 msgid "❗ [#f3]_"
-msgstr "❗ [#f1]_"
+msgstr "❗ [#f3]_"
 
 #: ../../basic-data-types.rst:38
 msgid "Footnotes"
@@ -156,20 +154,21 @@ msgstr ""
 
 #: ../../comments.rst:2
 msgid "Comments"
-msgstr ""
+msgstr "注释"
 
 #: ../../comments.rst:4
 msgid ""
 "You add comments to your programs using the ``;`` character. Everything "
 "following ``;`` until the end of the line will be ignored."
-msgstr ""
+msgstr "您可以在您的程序中使用 ``;`` 来添加注释。从 ``;`` 到行尾的一切内容将被忽略。"
 
 #: ../../comments.rst:6
 msgid ""
 "``/* */`` is also supported for block comments. Everything between ``/*`` "
 "and ``*/`` will be ignored, even if it spans multiple lines. Block comments "
 "do not nest."
-msgstr ""
+msgstr "``/* */`` 可用于块注释。``/*`` 和 ``*/`` "
+"之间的所有内容都将被忽略，并且允许跨行。块注释不可嵌套。"
 
 #: ../../index.rst:2
 msgid "Welcome to ZiYue4D documentation!"
