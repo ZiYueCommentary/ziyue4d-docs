@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-21 22:00+0800\n"
+"POT-Creation-Date: 2025-09-27 00:58+0800\n"
 "PO-Revision-Date: 2025-09-21 14:15+0000\n"
 "Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -160,15 +160,123 @@ msgstr "注释"
 msgid ""
 "You add comments to your programs using the ``;`` character. Everything "
 "following ``;`` until the end of the line will be ignored."
-msgstr "您可以在您的程序中使用 ``;`` 来添加注释。从 ``;`` 到行尾的一切内容将被忽略。"
+msgstr ""
+"您可以在您的程序中使用 ``;`` 来添加注释。从 ``;`` 到行尾的一切内容将被忽略。"
 
 #: ../../comments.rst:6
 msgid ""
 "``/* */`` is also supported for block comments. Everything between ``/*`` "
 "and ``*/`` will be ignored, even if it spans multiple lines. Block comments "
 "do not nest."
-msgstr "``/* */`` 可用于块注释。``/*`` 和 ``*/`` "
-"之间的所有内容都将被忽略，并且允许跨行。块注释不可嵌套。"
+msgstr ""
+"``/* */`` 可用于块注释。``/*`` 和 ``*/`` 之间的所有内容都将被忽略，并且允许跨"
+"行。块注释不可嵌套。"
+
+#: ../../functions.rst:2
+msgid "Functions"
+msgstr ""
+
+#: ../../functions.rst:4
+msgid "A function is defined using the Function keyword:"
+msgstr ""
+
+#: ../../functions.rst:12
+msgid ""
+"``name%(arg1$, arg2# = 3.14)`` is the **function signature**, which it "
+"contains:"
+msgstr ""
+
+#: ../../functions.rst:14
+msgid "``name`` is the function name, can be any valid identifier."
+msgstr ""
+
+#: ../../functions.rst:16
+msgid ""
+"``%`` is the type of value returned by the function. If it is omitted,the "
+"function returns an integer value by default."
+msgstr ""
+
+#: ../../functions.rst:18
+msgid ""
+"``arg1$, arg2# = 3.14`` is a comma-separated list of arguments. ``arg1$`` is "
+"a **mandatory argument** with no default value. ``arg2#`` is an **optional "
+"argument** since it has a default value. Arguments are always local."
+msgstr ""
+
+#: ../../functions.rst:20
+msgid ""
+"The statements between signature and ``End Function`` are the **function "
+"definition**. All ZiYue4D functions should have signature and definition."
+msgstr ""
+
+#: ../../functions.rst:22
+msgid ""
+"A function may use the ``Return`` statement to return a result. ``Return`` "
+"may optionally be followed by an expression."
+msgstr ""
+
+#: ../../functions.rst:24
+msgid ""
+"If there is no ``Return`` statement, or a ``Return`` without any expression "
+"is used, the function returns a default value of ``0`` for numeric "
+"functions, an empty string ``\"\"`` for string functions, or a Null object "
+"for custom-type functions."
+msgstr ""
+
+#: ../../functions.rst:29
+msgid "Exteral function"
+msgstr ""
+
+#: ../../functions.rst:31
+msgid ""
+"**External functions** are implemented in other programming languages, which "
+"are to be called by ZiYue4D program."
+msgstr ""
+
+#: ../../functions.rst:33
+msgid ""
+"Using ``Extern`` keyword before its signature to declare an external "
+"function. External functions should not have a function definition. This "
+"concept is designed for replacing ``.decls`` in Blitz3D."
+msgstr ""
+
+#: ../../functions.rst:35
+msgid "The example below shows a declaration of an external function."
+msgstr ""
+
+#: ../../functions.rst:42
+msgid "Function overloading"
+msgstr ""
+
+#: ../../functions.rst:46
+msgid ":ref:`extern-function` does not support overloading."
+msgstr ""
+
+#: ../../functions.rst:48
+msgid ""
+"When multiple functions need to share the same name, ZiYue4D will check its "
+"arguments to determine whether it is overridable. Basically, the regulation "
+"of overloading is:"
+msgstr ""
+
+#: ../../functions.rst:50
+msgid "The functions share the same name."
+msgstr ""
+
+#: ../../functions.rst:51
+msgid "Their number of mandatory arguments and optional arguments is unique."
+msgstr ""
+
+#: ../../functions.rst:52
+msgid "The return value type and argument types are irrelevant to overloading."
+msgstr ""
+
+#: ../../functions.rst:54
+msgid ""
+"The example below shows the overloading. The first and the second are valid "
+"since they have different counts of mandatory and optional arguments. The "
+"third one is invalid, in contrast, even though its argument types are unique."
+msgstr ""
 
 #: ../../index.rst:2
 msgid "Welcome to ZiYue4D documentation!"
