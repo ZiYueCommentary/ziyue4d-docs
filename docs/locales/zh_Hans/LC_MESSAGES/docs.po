@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-27 00:58+0800\n"
-"PO-Revision-Date: 2025-09-21 14:15+0000\n"
+"PO-Revision-Date: 2025-09-26 17:09+0000\n"
 "Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
@@ -174,7 +174,7 @@ msgstr ""
 
 #: ../../functions.rst:2
 msgid "Functions"
-msgstr ""
+msgstr "函数"
 
 #: ../../functions.rst:4
 msgid "A function is defined using the Function keyword:"
@@ -184,11 +184,11 @@ msgstr ""
 msgid ""
 "``name%(arg1$, arg2# = 3.14)`` is the **function signature**, which it "
 "contains:"
-msgstr ""
+msgstr "``name%(arg1$, arg2# = 3.14)`` 是 **函数签名**，其中包括："
 
 #: ../../functions.rst:14
 msgid "``name`` is the function name, can be any valid identifier."
-msgstr ""
+msgstr "``name`` 是函数名，可以是任何有效标识符。"
 
 #: ../../functions.rst:16
 msgid ""
@@ -225,13 +225,13 @@ msgstr ""
 
 #: ../../functions.rst:29
 msgid "Exteral function"
-msgstr ""
+msgstr "外部函数"
 
 #: ../../functions.rst:31
 msgid ""
 "**External functions** are implemented in other programming languages, which "
 "are to be called by ZiYue4D program."
-msgstr ""
+msgstr "**外部函数** 是使用其他编程语言实现的，由 ZiYue4D 程序调用的函数。"
 
 #: ../../functions.rst:33
 msgid ""
@@ -239,37 +239,40 @@ msgid ""
 "function. External functions should not have a function definition. This "
 "concept is designed for replacing ``.decls`` in Blitz3D."
 msgstr ""
+"在函数签名前使用 ``Extern`` 关键字来声明外部函数。外部函数没有函数实现。"
+"这一设计被用来替代 Blitz3D 中的 ``.decls``。"
 
 #: ../../functions.rst:35
 msgid "The example below shows a declaration of an external function."
-msgstr ""
+msgstr "以下的示例展示了一个外部函数的声明。"
 
 #: ../../functions.rst:42
 msgid "Function overloading"
-msgstr ""
+msgstr "函数重载"
 
 #: ../../functions.rst:46
 msgid ":ref:`extern-function` does not support overloading."
-msgstr ""
+msgstr ":ref:`extern-function` 不支持函数重载。"
 
 #: ../../functions.rst:48
 msgid ""
 "When multiple functions need to share the same name, ZiYue4D will check its "
 "arguments to determine whether it is overridable. Basically, the regulation "
 "of overloading is:"
-msgstr ""
+msgstr "当多个函数使用同一名称时，ZiYue4D "
+"会检查它们的参数来判断是否可以重载。基本上，函数重载的规则是："
 
 #: ../../functions.rst:50
 msgid "The functions share the same name."
-msgstr ""
+msgstr "函数名必须一致。"
 
 #: ../../functions.rst:51
 msgid "Their number of mandatory arguments and optional arguments is unique."
-msgstr ""
+msgstr "每个函数的必需参数和缺省参数数量与其他函数不一致。"
 
 #: ../../functions.rst:52
 msgid "The return value type and argument types are irrelevant to overloading."
-msgstr ""
+msgstr "返回值和参数类型不影响函数重载。"
 
 #: ../../functions.rst:54
 msgid ""
@@ -277,6 +280,8 @@ msgid ""
 "since they have different counts of mandatory and optional arguments. The "
 "third one is invalid, in contrast, even though its argument types are unique."
 msgstr ""
+"以下的示例展示了函数重载。第一、二个函数是有效重载，因为它们的必需参数和缺省"
+"参数数量不同。而第三个函数则是无效重载，即使每个参数的类型都与其他函数不同。"
 
 #: ../../index.rst:2
 msgid "Welcome to ZiYue4D documentation!"
@@ -290,8 +295,8 @@ msgstr "**ZiYue4D** 是一个基于 BlitzBasic 设计的，由 LLVM 驱动的编
 
 #: ../../index.rst:8
 msgid "This project is under active development."
-msgstr ""
+msgstr "该项目正在积极开发中。"
 
 #: ../../index.rst:11
 msgid "Contents"
-msgstr ""
+msgstr "内容"
