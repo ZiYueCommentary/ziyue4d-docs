@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-27 00:58+0800\n"
+"POT-Creation-Date: 2025-09-27 12:23+0800\n"
 "PO-Revision-Date: 2025-09-26 17:09+0000\n"
 "Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -176,46 +176,50 @@ msgstr ""
 msgid "Functions"
 msgstr "函数"
 
-#: ../../functions.rst:4
-msgid "A function is defined using the Function keyword:"
+#: ../../functions.rst:6
+msgid "Functions cannot be declared inside a function."
 msgstr ""
 
-#: ../../functions.rst:12
+#: ../../functions.rst:8
+msgid "A function is defined using the ``Function`` keyword:"
+msgstr ""
+
+#: ../../functions.rst:16
 msgid ""
 "``name%(arg1$, arg2# = 3.14)`` is the **function signature**, which it "
 "contains:"
 msgstr "``name%(arg1$, arg2# = 3.14)`` 是 **函数签名**，其中包括："
 
-#: ../../functions.rst:14
+#: ../../functions.rst:18
 msgid "``name`` is the function name, can be any valid identifier."
 msgstr "``name`` 是函数名，可以是任何有效标识符。"
 
-#: ../../functions.rst:16
+#: ../../functions.rst:20
 msgid ""
 "``%`` is the type of value returned by the function. If it is omitted,the "
 "function returns an integer value by default."
 msgstr ""
 
-#: ../../functions.rst:18
+#: ../../functions.rst:22
 msgid ""
 "``arg1$, arg2# = 3.14`` is a comma-separated list of arguments. ``arg1$`` is "
 "a **mandatory argument** with no default value. ``arg2#`` is an **optional "
 "argument** since it has a default value. Arguments are always local."
 msgstr ""
 
-#: ../../functions.rst:20
+#: ../../functions.rst:24
 msgid ""
 "The statements between signature and ``End Function`` are the **function "
 "definition**. All ZiYue4D functions should have signature and definition."
 msgstr ""
 
-#: ../../functions.rst:22
+#: ../../functions.rst:26
 msgid ""
 "A function may use the ``Return`` statement to return a result. ``Return`` "
 "may optionally be followed by an expression."
 msgstr ""
 
-#: ../../functions.rst:24
+#: ../../functions.rst:28
 msgid ""
 "If there is no ``Return`` statement, or a ``Return`` without any expression "
 "is used, the function returns a default value of ``0`` for numeric "
@@ -223,58 +227,59 @@ msgid ""
 "for custom-type functions."
 msgstr ""
 
-#: ../../functions.rst:29
+#: ../../functions.rst:33
 msgid "Exteral function"
 msgstr "外部函数"
 
-#: ../../functions.rst:31
+#: ../../functions.rst:35
 msgid ""
 "**External functions** are implemented in other programming languages, which "
 "are to be called by ZiYue4D program."
 msgstr "**外部函数** 是使用其他编程语言实现的，由 ZiYue4D 程序调用的函数。"
 
-#: ../../functions.rst:33
+#: ../../functions.rst:37
 msgid ""
 "Using ``Extern`` keyword before its signature to declare an external "
 "function. External functions should not have a function definition. This "
 "concept is designed for replacing ``.decls`` in Blitz3D."
 msgstr ""
-"在函数签名前使用 ``Extern`` 关键字来声明外部函数。外部函数没有函数实现。"
-"这一设计被用来替代 Blitz3D 中的 ``.decls``。"
+"在函数签名前使用 ``Extern`` 关键字来声明外部函数。外部函数没有函数实现。这一"
+"设计被用来替代 Blitz3D 中的 ``.decls``。"
 
-#: ../../functions.rst:35
+#: ../../functions.rst:39
 msgid "The example below shows a declaration of an external function."
 msgstr "以下的示例展示了一个外部函数的声明。"
 
-#: ../../functions.rst:42
+#: ../../functions.rst:47
 msgid "Function overloading"
 msgstr "函数重载"
 
-#: ../../functions.rst:46
+#: ../../functions.rst:51
 msgid ":ref:`extern-function` does not support overloading."
 msgstr ":ref:`extern-function` 不支持函数重载。"
 
-#: ../../functions.rst:48
+#: ../../functions.rst:53
 msgid ""
 "When multiple functions need to share the same name, ZiYue4D will check its "
 "arguments to determine whether it is overridable. Basically, the regulation "
 "of overloading is:"
-msgstr "当多个函数使用同一名称时，ZiYue4D "
-"会检查它们的参数来判断是否可以重载。基本上，函数重载的规则是："
+msgstr ""
+"当多个函数使用同一名称时，ZiYue4D 会检查它们的参数来判断是否可以重载。基本"
+"上，函数重载的规则是："
 
-#: ../../functions.rst:50
+#: ../../functions.rst:55
 msgid "The functions share the same name."
 msgstr "函数名必须一致。"
 
-#: ../../functions.rst:51
+#: ../../functions.rst:56
 msgid "Their number of mandatory arguments and optional arguments is unique."
 msgstr "每个函数的必需参数和缺省参数数量与其他函数不一致。"
 
-#: ../../functions.rst:52
+#: ../../functions.rst:57
 msgid "The return value type and argument types are irrelevant to overloading."
 msgstr "返回值和参数类型不影响函数重载。"
 
-#: ../../functions.rst:54
+#: ../../functions.rst:59
 msgid ""
 "The example below shows the overloading. The first and the second are valid "
 "since they have different counts of mandatory and optional arguments. The "
@@ -300,3 +305,38 @@ msgstr "该项目正在积极开发中。"
 #: ../../index.rst:11
 msgid "Contents"
 msgstr "内容"
+
+#: ../../unsafe-operations.rst:2
+msgid "Unsafe operations"
+msgstr ""
+
+#: ../../unsafe-operations.rst:4
+msgid ""
+"**Unsafe operations** such as retrieving pointers or converting a pointer to "
+"integer, are not recommended for use. In most cases, unsafe operations are "
+"not required. Using them improperly will cause undefined behavior, and even "
+"crash the program."
+msgstr ""
+
+#: ../../unsafe-operations.rst:7
+#, fuzzy
+#| msgid "Function overloading"
+msgid "Function pointer"
+msgstr "函数重载"
+
+#: ../../unsafe-operations.rst:11
+msgid ""
+"Retrieving pointer of function which used :ref:`function-overloading` is "
+"undefined behavior."
+msgstr ""
+
+#: ../../unsafe-operations.rst:13
+msgid ""
+"Using ``&`` unary operator on a function identifier to retrieve its pointer."
+msgstr ""
+
+#: ../../unsafe-operations.rst:15
+#, fuzzy
+#| msgid "The example below shows a declaration of an external function."
+msgid "The example below shows retrieve a function pointer."
+msgstr "以下的示例展示了一个外部函数的声明。"
