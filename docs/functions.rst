@@ -7,7 +7,7 @@ Functions
 
 A function is defined using the ``Function`` keyword:
 
-.. code-block:: blitzbasic
+.. code-block:: ziyue4d
 
     Function name%(arg1$, arg2# = 3.14)
         ; some statements...

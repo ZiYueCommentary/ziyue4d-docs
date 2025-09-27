@@ -14,7 +14,7 @@ Using ``&`` unary operator on a function identifier to retrieve its pointer.
 
 The example below shows retrieve a function pointer.
 
-.. code-block:: blitzbasic
+.. code-block:: ziyue4d
     :emphasize-lines: 5
 
     Function foo%()

@@ -5,7 +5,7 @@ You add comments to your programs using the ``;`` character. Everything followin
 
 ``/* */`` is also supported for block comments. Everything between ``/*`` and ``*/`` will be ignored, even if it spans multiple lines. Block comments do not nest.
 
-.. code-block:: blitzbasic
+.. code-block:: ziyue4d
 
     Function Redraw(param% /* an integer parameter */)
         ; do something...

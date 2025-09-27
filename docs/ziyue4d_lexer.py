@@ -9,7 +9,7 @@ class ZiYue4DLexer(RegexLexer):
     aliases = ['ziyue4d']
     filenames = ['*.sb']
 
-    bb_sktypes = r'@{1,2}|[#$%]'
+    bb_sktypes = r'@{1,2}|[#$%@]'
     bb_name = r'[a-z]\w*'
     bb_var = (rf'({bb_name})(?:([ \t]*)({bb_sktypes})|([ \t]*)([.])([ \t]*)(?:({bb_name})))?')
 
@@ -74,4 +74,3 @@ class ZiYue4DLexer(RegexLexer):
             (r'[^"\n]+', String.Double),
         ],
     }
-    
