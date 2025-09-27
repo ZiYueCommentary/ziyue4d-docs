@@ -38,11 +38,12 @@ Using ``Extern`` keyword before its signature to declare an external function. E
 
 The example below shows a declaration of an external function.
 
-.. code-block:: blitzbasic
+.. code-block:: ziyue4d
 
     Extern MessageBox%(title$, msg$)
 
 .. _function-overloading:
+
 Function overloading
 ------------------------
 
@@ -58,7 +59,7 @@ When multiple functions need to share the same name, ZiYue4D will check its argu
 
 The example below shows the overloading. The first and the second are valid since they have different counts of mandatory and optional arguments. The third one is invalid, in contrast, even though its argument types are unique.
 
-.. code-block:: blitzbasic
+.. code-block:: ziyue4d
     :emphasize-lines: 11-15
 
     /* This function has 2 mandatory args, and 0 optional */

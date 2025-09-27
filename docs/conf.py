@@ -2,6 +2,9 @@
 
 # -- Project information
 
+from sphinx.highlighting import lexers
+from ziyue4d_lexer import ZiYue4DLexer
+
 project = 'ZiYue4D'
 copyright = '2025 ZiYueCommentary'
 author = 'ZiYueCommentary'
@@ -26,6 +29,7 @@ intersphinx_mapping = {
 intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
+lexers['ziyue4d'] = ZiYue4DLexer()
 
 # -- Options for HTML output
 
