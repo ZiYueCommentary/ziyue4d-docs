@@ -71,6 +71,8 @@ class ZiYue4DLexer(RegexLexer):
         'string': [
             (r'""', String.Double),
             (r'"C?', String.Double, '#pop'),
+            (r'\\([\\abfnrtv"\']|x[a-fA-F0-9]{2,4}|'
+             r'u[a-fA-F0-9]{4}|U[a-fA-F0-9]{8}|[0-7]{1,3})', String.Escape),
             (r'[^"\n]+', String.Double),
         ],
     }
