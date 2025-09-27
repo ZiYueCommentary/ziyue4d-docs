@@ -15,3 +15,4 @@ Contents
    comments
    basic-data-types
    functions
+   unsafe-operations

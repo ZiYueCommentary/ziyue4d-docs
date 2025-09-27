@@ -1,7 +1,11 @@
 Functions
 ============
 
-A function is defined using the Function keyword:
+.. note:: 
+
+    Functions cannot be declared inside a function.
+
+A function is defined using the ``Function`` keyword:
 
 .. code-block:: blitzbasic
 
@@ -38,6 +42,7 @@ The example below shows a declaration of an external function.
 
     Extern MessageBox%(title$, msg$)
 
+.. _function-overloading:
 Function overloading
 ------------------------
 
