@@ -17,7 +17,7 @@ A function is defined using the ``Function`` keyword:
 
     * ``name`` is the function name, can be any valid identifier.
     
-    * ``%`` is the type of value returned by the function. If it is omitted,the function returns an integer value by default.
+    * ``%`` is the type of value returned by the function. If it is omitted, the function returns an integer value by default.
     
     * ``arg1$, arg2# = 3.14`` is a comma-separated list of arguments. ``arg1$`` is a **mandatory argument** with no default value. ``arg2#`` is an **optional argument** since it has a default value. Arguments are always local.
 
@@ -34,7 +34,9 @@ Exteral function
 
 **External functions** are implemented in other programming languages, which are to be called by ZiYue4D program.
 
-Using ``Extern`` keyword before its signature to declare an external function. External functions should not have a function definition. This concept is designed for replacing ``.decls`` in Blitz3D.
+Using ``Extern`` keyword before its signature to declare an external function. External functions should not have a function definition. Unlike regular functions, if return value type is omitted, the type will be ``void``, which means no return value.
+
+This concept is designed for replacing ``.decls`` in Blitz3D.
 
 The example below shows a declaration of an external function.
 
