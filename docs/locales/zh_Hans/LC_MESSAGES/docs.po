@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-09-27 12:23+0800\n"
-"PO-Revision-Date: 2025-09-26 17:09+0000\n"
+"PO-Revision-Date: 2025-09-28 14:05+0000\n"
 "Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: ../../basic-data-types.rst:2
 msgid "Basic Data Types"
@@ -137,14 +137,10 @@ msgid ""
 msgstr ""
 
 #: ../../basic-data-types.rst:40
-#, fuzzy
-#| msgid ""
-#| "Float to Integer conversion truncates the fractional part. This may leads "
-#| "to loss of accuracy."
 msgid ""
 "Float to Integer will round to the nearest integer. This may lead to loss of "
 "accuracy."
-msgstr "浮点转整数会丢弃小数部分，可能导致精度丢失。"
+msgstr "浮点转整数会四舍五入到最近的整数，可能导致精度丢失。"
 
 #: ../../basic-data-types.rst:41
 msgid ""
@@ -273,7 +269,7 @@ msgstr "函数名必须一致。"
 
 #: ../../functions.rst:56
 msgid "Their number of mandatory arguments and optional arguments is unique."
-msgstr "每个函数的必需参数和缺省参数数量与其他函数不一致。"
+msgstr "每个函数的必需参数和缺省参数数量与其他函数不同。"
 
 #: ../../functions.rst:57
 msgid "The return value type and argument types are irrelevant to overloading."
@@ -308,7 +304,7 @@ msgstr "内容"
 
 #: ../../unsafe-operations.rst:2
 msgid "Unsafe operations"
-msgstr ""
+msgstr "不安全操作"
 
 #: ../../unsafe-operations.rst:4
 msgid ""
@@ -319,21 +315,19 @@ msgid ""
 msgstr ""
 
 #: ../../unsafe-operations.rst:7
-#, fuzzy
-#| msgid "Function overloading"
 msgid "Function pointer"
-msgstr "函数重载"
+msgstr "函数指针"
 
 #: ../../unsafe-operations.rst:11
 msgid ""
 "Retrieving pointer of function which used :ref:`function-overloading` is "
 "undefined behavior."
-msgstr ""
+msgstr "获取使用 :ref:`function-overloading` 的函数指针是未定义行为。"
 
 #: ../../unsafe-operations.rst:13
 msgid ""
 "Using ``&`` unary operator on a function identifier to retrieve its pointer."
-msgstr ""
+msgstr "对函数名使用 ``&`` 一元运算符来获取函数指针。"
 
 #: ../../unsafe-operations.rst:15
 #, fuzzy
