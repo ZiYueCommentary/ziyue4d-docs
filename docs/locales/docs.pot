@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-27 12:23+0800\n"
+"POT-Creation-Date: 2025-10-03 11:33+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,109 +24,206 @@ msgstr ""
 msgid "There are 4 basic data types:"
 msgstr ""
 
-#: ../../basic-data-types.rst:6
-msgid "**Integer** are numeric values with no fractional part in them. For example: 5,-10,0 are integer values. All integer values in your program must be in the range -2147483648 to +2147483647."
-msgstr ""
-
-#: ../../basic-data-types.rst:8
-msgid "**Float** are numeric values that include a fractional part. For example: .5, -10.1, 0.0 are all floating point values."
-msgstr ""
-
-#: ../../basic-data-types.rst:10
-msgid "**String** are used to contain text. For example: \"Hello World!\"."
-msgstr ""
-
-#: ../../basic-data-types.rst:12
-msgid "**Pointer** are objects that store a memory address. This type is for solving that pointers are stored in an integer in BlitzBasic."
-msgstr ""
-
-#: ../../basic-data-types.rst:15
-msgid "Implicit conversion"
-msgstr ""
-
-#: ../../basic-data-types.rst:17
-msgid "**Implicit conversion** plays an important role in ZiYue4D. Most of the conversion in ZiYue4D is implicit, and observes the same rules as in BlitzBasic."
-msgstr ""
-
-#: ../../basic-data-types.rst:19
-msgid "When an binary operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:"
-msgstr ""
-
-#: ../../basic-data-types.rst:21
-msgid "Pointers cannot be converted to any other type, and no other type can be converted to pointers. [#f1]_"
-msgstr ""
-
-#: ../../basic-data-types.rst:22
-msgid "If one operand is a string, the other is converted to a string."
-msgstr ""
-
-#: ../../basic-data-types.rst:23
-msgid "If one operand is floating point, the other is converted to floating point."
-msgstr ""
-
-#: ../../basic-data-types.rst:24
-msgid "Otherwise, both operands are integers."
-msgstr ""
-
-#: ../../basic-data-types.rst:27
-msgid "From \\\\ To"
-msgstr ""
-
-#: ../../basic-data-types.rst:27
-#: ../../basic-data-types.rst:29
+#: ../../basic-data-types.rst:9
+#: ../../basic-data-types.rst:90
+#: ../../basic-data-types.rst:92
 msgid "Integer"
 msgstr ""
 
-#: ../../basic-data-types.rst:27
-#: ../../basic-data-types.rst:31
+#: ../../basic-data-types.rst:11
+msgid "**Integer** are numeric values with no fractional part in them, ``int32`` in essence. For example: ``5``, ``-10``, ``0`` are integer values. All integer values in the program must be in the range ``-2147483648`` to ``+2147483647``."
+msgstr ""
+
+#: ../../basic-data-types.rst:16
+msgid "Digit separator"
+msgstr ""
+
+#: ../../basic-data-types.rst:18
+msgid "**Digit separator** ``_`` can be used to separate a long literal number. For example, ``3_14_15_926`` is equavlant to ``31415926``."
+msgstr ""
+
+#: ../../basic-data-types.rst:23
+#: ../../basic-data-types.rst:90
+#: ../../basic-data-types.rst:94
 msgid "Float"
 msgstr ""
 
-#: ../../basic-data-types.rst:27
-#: ../../basic-data-types.rst:33
+#: ../../basic-data-types.rst:25
+msgid "**Float** are numeric values that include a fractional part. For example: ``.5``, ``-10.1``, ``0.0`` are all floating point values. You can also use :ref:`digit_separator` to separate literal."
+msgstr ""
+
+#: ../../basic-data-types.rst:30
+#: ../../basic-data-types.rst:90
+#: ../../basic-data-types.rst:96
 msgid "String"
 msgstr ""
 
-#: ../../basic-data-types.rst:27
-#: ../../basic-data-types.rst:35
-msgid "Pointer"
-msgstr ""
-
-#: ../../basic-data-types.rst:29
-#: ../../basic-data-types.rst:31
-#: ../../basic-data-types.rst:33
-#: ../../basic-data-types.rst:35
-msgid "✅"
-msgstr ""
-
-#: ../../basic-data-types.rst:29
-#: ../../basic-data-types.rst:31
-#: ../../basic-data-types.rst:33
-#: ../../basic-data-types.rst:35
-msgid "❌"
-msgstr ""
-
-#: ../../basic-data-types.rst:31
-msgid "❗ [#f2]_"
+#: ../../basic-data-types.rst:32
+msgid "**String** are used to contain text. For example: ``\"Hello World!\"``."
 msgstr ""
 
 #: ../../basic-data-types.rst:35
-msgid "❗ [#f3]_"
+msgid "Escape characters"
 msgstr ""
 
-#: ../../basic-data-types.rst:38
-msgid "Footnotes"
-msgstr ""
-
-#: ../../basic-data-types.rst:39
-msgid "When assigning a pointer to an integer variable, ZiYue4D will automatically raise the variable to pointer type."
+#: ../../basic-data-types.rst:37
+msgid "You need to use **escape characters** to insert ``\"`` or line feed in a literal string. This is a modern alternative to ``Chr`` function."
 msgstr ""
 
 #: ../../basic-data-types.rst:40
+msgid "Character"
+msgstr ""
+
+#: ../../basic-data-types.rst:40
+msgid "Result"
+msgstr ""
+
+#: ../../basic-data-types.rst:42
+msgid "``\\'``"
+msgstr ""
+
+#: ../../basic-data-types.rst:42
+msgid "single quote"
+msgstr ""
+
+#: ../../basic-data-types.rst:44
+msgid "``\\\"``"
+msgstr ""
+
+#: ../../basic-data-types.rst:44
+msgid "double quote"
+msgstr ""
+
+#: ../../basic-data-types.rst:46
+msgid "``\\\\``"
+msgstr ""
+
+#: ../../basic-data-types.rst:46
+msgid "backslash"
+msgstr ""
+
+#: ../../basic-data-types.rst:48
+msgid "``\\n``"
+msgstr ""
+
+#: ../../basic-data-types.rst:48
+msgid "new line"
+msgstr ""
+
+#: ../../basic-data-types.rst:50
+msgid "``\\r``"
+msgstr ""
+
+#: ../../basic-data-types.rst:50
+msgid "carriage return"
+msgstr ""
+
+#: ../../basic-data-types.rst:52
+msgid "``\\t``"
+msgstr ""
+
+#: ../../basic-data-types.rst:52
+msgid "tab"
+msgstr ""
+
+#: ../../basic-data-types.rst:54
+msgid "``\\b``"
+msgstr ""
+
+#: ../../basic-data-types.rst:54
+msgid "backspace"
+msgstr ""
+
+#: ../../basic-data-types.rst:56
+msgid "``\\f``"
+msgstr ""
+
+#: ../../basic-data-types.rst:56
+msgid "form feed"
+msgstr ""
+
+#: ../../basic-data-types.rst:59
+msgid "The example below shows the usage of the escape character. Both of them print ``Hello\"World!``. It is recommended to replace the legacy BlitzBasic method with escape characters, as it processes at compile time and produces fewer string objects at runtime."
+msgstr ""
+
+#: ../../basic-data-types.rst:71
+#: ../../basic-data-types.rst:90
+#: ../../basic-data-types.rst:98
+msgid "Pointer"
+msgstr ""
+
+#: ../../basic-data-types.rst:73
+msgid "**Pointer** are objects that store a memory address. This type is for solving that pointers are stored in an integer in BlitzBasic."
+msgstr ""
+
+#: ../../basic-data-types.rst:75
+#: ../../basic-data-types.rst:102
+msgid "When assigning a pointer to an integer variable, ZiYue4D will automatically raise the variable to pointer type."
+msgstr ""
+
+#: ../../basic-data-types.rst:78
+msgid "Implicit conversion"
+msgstr ""
+
+#: ../../basic-data-types.rst:80
+msgid "**Implicit conversion** plays an important role in ZiYue4D. Most of the conversion in ZiYue4D is implicit, and observes the same rules as in BlitzBasic."
+msgstr ""
+
+#: ../../basic-data-types.rst:82
+msgid "When an binary operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:"
+msgstr ""
+
+#: ../../basic-data-types.rst:84
+msgid "Pointers cannot be converted to any other type, and no other type can be converted to pointers. [#f1]_"
+msgstr ""
+
+#: ../../basic-data-types.rst:85
+msgid "If one operand is a string, the other is converted to a string."
+msgstr ""
+
+#: ../../basic-data-types.rst:86
+msgid "If one operand is floating point, the other is converted to floating point."
+msgstr ""
+
+#: ../../basic-data-types.rst:87
+msgid "Otherwise, both operands are integers."
+msgstr ""
+
+#: ../../basic-data-types.rst:90
+msgid "From \\\\ To"
+msgstr ""
+
+#: ../../basic-data-types.rst:92
+#: ../../basic-data-types.rst:94
+#: ../../basic-data-types.rst:96
+#: ../../basic-data-types.rst:98
+msgid "✅"
+msgstr ""
+
+#: ../../basic-data-types.rst:92
+#: ../../basic-data-types.rst:94
+#: ../../basic-data-types.rst:96
+#: ../../basic-data-types.rst:98
+msgid "❌"
+msgstr ""
+
+#: ../../basic-data-types.rst:94
+msgid "❗ [#f2]_"
+msgstr ""
+
+#: ../../basic-data-types.rst:98
+msgid "❗ [#f3]_"
+msgstr ""
+
+#: ../../basic-data-types.rst:101
+msgid "Footnotes"
+msgstr ""
+
+#: ../../basic-data-types.rst:103
 msgid "Float to Integer will round to the nearest integer. This may lead to loss of accuracy."
 msgstr ""
 
-#: ../../basic-data-types.rst:41
+#: ../../basic-data-types.rst:104
 msgid "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to pointer type automatically."
 msgstr ""
 
@@ -159,11 +256,11 @@ msgid "``name%(arg1$, arg2# = 3.14)`` is the **function signature**, which it co
 msgstr ""
 
 #: ../../functions.rst:18
-msgid "``name`` is the function name, can be any valid identifier."
+msgid "``name`` is the function name, can be any valid :ref:`identifiers`."
 msgstr ""
 
 #: ../../functions.rst:20
-msgid "``%`` is the type of value returned by the function. If it is omitted,the function returns an integer value by default."
+msgid "``%`` is the type of value returned by the function. If it is omitted, the function returns an integer value by default."
 msgstr ""
 
 #: ../../functions.rst:22
@@ -191,39 +288,67 @@ msgid "**External functions** are implemented in other programming languages, wh
 msgstr ""
 
 #: ../../functions.rst:37
-msgid "Using ``Extern`` keyword before its signature to declare an external function. External functions should not have a function definition. This concept is designed for replacing ``.decls`` in Blitz3D."
+msgid "Using ``Extern`` keyword before its signature to declare an external function. External functions should not have a function definition. Unlike regular functions, if return value type is omitted, the type will be ``void``, which means no return value."
 msgstr ""
 
 #: ../../functions.rst:39
+msgid "This concept is designed for replacing ``.decls`` in Blitz3D."
+msgstr ""
+
+#: ../../functions.rst:41
 msgid "The example below shows a declaration of an external function."
 msgstr ""
 
-#: ../../functions.rst:47
+#: ../../functions.rst:50
 msgid "Function overloading"
 msgstr ""
 
-#: ../../functions.rst:51
+#: ../../functions.rst:54
 msgid ":ref:`extern-function` does not support overloading."
 msgstr ""
 
-#: ../../functions.rst:53
+#: ../../functions.rst:56
 msgid "When multiple functions need to share the same name, ZiYue4D will check its arguments to determine whether it is overridable. Basically, the regulation of overloading is:"
 msgstr ""
 
-#: ../../functions.rst:55
+#: ../../functions.rst:58
 msgid "The functions share the same name."
 msgstr ""
 
-#: ../../functions.rst:56
+#: ../../functions.rst:59
 msgid "Their number of mandatory arguments and optional arguments is unique."
 msgstr ""
 
-#: ../../functions.rst:57
+#: ../../functions.rst:60
 msgid "The return value type and argument types are irrelevant to overloading."
 msgstr ""
 
-#: ../../functions.rst:59
+#: ../../functions.rst:62
 msgid "The example below shows the overloading. The first and the second are valid since they have different counts of mandatory and optional arguments. The third one is invalid, in contrast, even though its argument types are unique."
+msgstr ""
+
+#: ../../identifiers.rst:4
+msgid "Identifiers"
+msgstr ""
+
+#: ../../identifiers.rst:6
+msgid "Identifiers are used for constant names, variable names, array names, function names, and custom type names."
+msgstr ""
+
+#: ../../identifiers.rst:8
+msgid "Identifiers supports Unicode characters, but not start with an number. For example, ``Hello``, ``player1``, ``time_to_live``, ``__var``, ``变量`` are all valid identifiers."
+msgstr ""
+
+#: ../../identifiers.rst:10
+msgid "Identifiers are not case-sensitive. For example, ``Test``, ``TEST`` and ``test`` are all the same identifiers. Note that this works for alphabets only, Unicode identifiers may be case-sensitive."
+msgstr ""
+
+#: ../../identifiers.rst:12
+msgid "It is allowed for identifiers to be reused for functions and variables. For example, you can have a variable called ``test``, a function called ``test``. When the identifier is not inside a function call, it will be seen as a function by default."
+msgstr ""
+
+#: ../../identifiers.rst:14
+msgid "The example below shows how ZiYue4D distinguishes variables and functions. In line 1, ``Foo`` is a function, and ``bar`` is a variable. In line 2, ``Foo`` is a function, and ``bar`` is a function. However, the third line is suggested, since it clearly shows which one is variable."
 msgstr ""
 
 #: ../../index.rst:2
@@ -231,7 +356,7 @@ msgid "Welcome to ZiYue4D documentation!"
 msgstr ""
 
 #: ../../index.rst:4
-msgid "**ZiYue4D** is a programming language that is powered by LLVM and is based on BlitzBasic."
+msgid "**ZiYue4D** is a programming language that is powered by LLVM and is based on BlitzBasic. It is intended to be a modern cross-platform alternative to BlitzBasic."
 msgstr ""
 
 #: ../../index.rst:8
@@ -264,4 +389,100 @@ msgstr ""
 
 #: ../../unsafe-operations.rst:15
 msgid "The example below shows retrieve a function pointer."
+msgstr ""
+
+#: ../../variables.rst:2
+msgid "Variables"
+msgstr ""
+
+#: ../../variables.rst:4
+msgid "**Variables** may be of any basic data type, or a custom type. A variable's type is determined by a special character that follows its identifier. These special characters are called **type tags**."
+msgstr ""
+
+#: ../../variables.rst:7
+msgid "Tag"
+msgstr ""
+
+#: ../../variables.rst:7
+msgid "Type"
+msgstr ""
+
+#: ../../variables.rst:9
+msgid "``%``"
+msgstr ""
+
+#: ../../variables.rst:9
+msgid ":ref:`integer`"
+msgstr ""
+
+#: ../../variables.rst:11
+msgid "``#``"
+msgstr ""
+
+#: ../../variables.rst:11
+msgid ":ref:`float`"
+msgstr ""
+
+#: ../../variables.rst:13
+msgid "``$``"
+msgstr ""
+
+#: ../../variables.rst:13
+msgid ":ref:`string`"
+msgstr ""
+
+#: ../../variables.rst:15
+msgid "``@``"
+msgstr ""
+
+#: ../../variables.rst:15
+msgid ":ref:`pointer`"
+msgstr ""
+
+#: ../../variables.rst:18
+msgid "The type tag only needs to be added the first time you use a variable, after that you can leave the type tag off if you wish."
+msgstr ""
+
+#: ../../variables.rst:20
+msgid "If you don't supply a type tag the first time a variable is used, the variable defaults to an integer."
+msgstr ""
+
+#: ../../variables.rst:22
+msgid "It is illegal to use the same variable name with a different type. For example, if you already have an integer variable called ``name%``, it is illegal to also have a string variable called ``name$``."
+msgstr ""
+
+#: ../../variables.rst:25
+msgid "Assignment"
+msgstr ""
+
+#: ../../variables.rst:27
+msgid "You can use ``=`` to assign a value to a variable. For example: ``score% = 0`` will assign the value ``0`` to the integer variable ``score``. This expression returns the assigned value, which means you can do assignment and comparison in a single line."
+msgstr ""
+
+#: ../../variables.rst:34
+msgid "Scope"
+msgstr ""
+
+#: ../../variables.rst:36
+msgid "Variables may also be either ``Global``, or ``Local``. This refers to where in a program a variable may be used. ``Global`` variables can be used from anywhere in the program. ``Local`` variables can only be used within the function they are created in."
+msgstr ""
+
+#: ../../variables.rst:38
+msgid "The ``Global`` keyword is used to define one or more global variables. For example:"
+msgstr ""
+
+#: ../../variables.rst:44
+msgid "Defines 3 global variables."
+msgstr ""
+
+#: ../../variables.rst:46
+msgid "Similarly, ``Local`` is used to define local variables:"
+msgstr ""
+
+#: ../../variables.rst:52
+msgid "The operations above is called **explicit definition**. It indicates variable declaration, and throws a compile error when defining it multiple times. If you use a variable without defining it as either local or global, it defaults to being local. This operation is called **implicit definition**. This is not suggested since it creates another variable when you have a typo, leading to unexpected results."
+msgstr ""
+
+#: ../../variables.rst:54
+msgid "It is strongly recommended to use ``Local`` or ``Global`` to declare variables, since it is a safer practice. You can also turn safe check in compiler to force the program to use explicit definition, and disable implicit definition."
 msgstr ""

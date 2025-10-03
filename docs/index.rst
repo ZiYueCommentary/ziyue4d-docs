@@ -14,5 +14,7 @@ Contents
 
    comments
    basic-data-types
+   identifiers
+   variables
    functions
    unsafe-operations

@@ -15,7 +15,7 @@ A function is defined using the ``Function`` keyword:
 
 ``name%(arg1$, arg2# = 3.14)`` is the **function signature**, which it contains:
 
-    * ``name`` is the function name, can be any valid identifier.
+    * ``name`` is the function name, can be any valid :ref:`identifiers`.
     
     * ``%`` is the type of value returned by the function. If it is omitted, the function returns an integer value by default.
     
@@ -42,7 +42,7 @@ The example below shows a declaration of an external function.
 
 .. code-block:: ziyue4d
 
-    Extern MessageBox%(title$, msg$)
+    Extern MessageBox%(title$ = "Notice", msg$)
 
 .. _function-overloading:
 
@@ -75,7 +75,7 @@ The example below shows the overloading. The first and the second are valid sinc
     End Function
 
     ; Invalid overloading!
-    /* This function has 1 mandatory args, and 1 optional*/
+    /* This function has 1 mandatory args, and 1 optional */
     Function foo#(arg1%, arg2$ = "3.14")
         ; some statements
     End Function

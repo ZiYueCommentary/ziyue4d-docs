@@ -3,6 +3,8 @@ Basic Data Types
 
 There are 4 basic data types:
 
+.. _integer:
+
 Integer
 ----------------------
 
@@ -15,10 +17,14 @@ Digit separator
 
 **Digit separator** ``_`` can be used to separate a long literal number. For example, ``3_14_15_926`` is equavlant to ``31415926``.
 
+.. _float:
+
 Float
 ----------------------
 
 **Float** are numeric values that include a fractional part. For example: ``.5``, ``-10.1``, ``0.0`` are all floating point values. You can also use :ref:`digit_separator` to separate literal.
+
+.. _string:
 
 String
 -------------------
@@ -54,9 +60,12 @@ The example below shows the usage of the escape character. Both of them print ``
 
 .. code-block:: ziyue4d
     :emphasize-lines: 1
+    :linenos:
 
     Print("Hello\"World!")
     Print("Hello" + Chr(34) + "World!")
+
+.. _pointer:
 
 Pointer
 -----------------
