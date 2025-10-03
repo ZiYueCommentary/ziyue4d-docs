@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-03 11:33+0800\n"
-"PO-Revision-Date: 2025-09-28 14:05+0000\n"
+"PO-Revision-Date: 2025-10-03 03:42+0000\n"
 "Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
@@ -32,29 +32,26 @@ msgid "Integer"
 msgstr "整数"
 
 #: ../../basic-data-types.rst:11
-#, fuzzy
-#| msgid ""
-#| "**Integer** are numeric values with no fractional part in them. For "
-#| "example: 5,-10,0 are integer values. All integer values in your program "
-#| "must be in the range -2147483648 to +2147483647."
 msgid ""
 "**Integer** are numeric values with no fractional part in them, ``int32`` in "
 "essence. For example: ``5``, ``-10``, ``0`` are integer values. All integer "
 "values in the program must be in the range ``-2147483648`` to "
 "``+2147483647``."
 msgstr ""
-"**整数** 是没有小数部分的数值。例如：5、-10、0是整数值。程序中的所有整数值必"
-"须在 -2147483648 到 +2147483647 的范围内。"
+"**整数** 是没有小数部分的数值，本质上是 "
+"``int32``。例如：``5``、``-10``、``0`` 是整数值。程序中的所有整数值必须在 "
+"``-2147483648`` 到 ``+2147483647`` 的范围内。"
 
 #: ../../basic-data-types.rst:16
 msgid "Digit separator"
-msgstr ""
+msgstr "数字分隔符"
 
 #: ../../basic-data-types.rst:18
 msgid ""
 "**Digit separator** ``_`` can be used to separate a long literal number. For "
 "example, ``3_14_15_926`` is equavlant to ``31415926``."
-msgstr ""
+msgstr "**数字分隔符** ``_`` 可用于分割一段较长的字面量数字。例如，``3_14_15_926`` "
+"等价于 ``31415926``。"
 
 #: ../../basic-data-types.rst:23 ../../basic-data-types.rst:90
 #: ../../basic-data-types.rst:94
@@ -62,15 +59,13 @@ msgid "Float"
 msgstr "浮点"
 
 #: ../../basic-data-types.rst:25
-#, fuzzy
-#| msgid ""
-#| "**Float** are numeric values that include a fractional part. For example: "
-#| ".5, -10.1, 0.0 are all floating point values."
 msgid ""
 "**Float** are numeric values that include a fractional part. For example: "
 "``.5``, ``-10.1``, ``0.0`` are all floating point values. You can also "
 "use :ref:`digit_separator` to separate literal."
-msgstr "**浮点数** 是包含小数部分的数值。例如：.5、-10.1、0.0 都是浮点值。"
+msgstr ""
+"**浮点数** 是包含小数部分的数值。例如：``.5``、``-10.1``、``0.0`` "
+"都是浮点值。你也可以使用 :ref:`digit_separator` 来分割字面量。"
 
 #: ../../basic-data-types.rst:30 ../../basic-data-types.rst:90
 #: ../../basic-data-types.rst:96
@@ -78,92 +73,93 @@ msgid "String"
 msgstr "字符串"
 
 #: ../../basic-data-types.rst:32
-#, fuzzy
-#| msgid "**String** are used to contain text. For example: \"Hello World!\"."
 msgid "**String** are used to contain text. For example: ``\"Hello World!\"``."
-msgstr "**字符串** 用于包含文本。例如：\"你好，世界！\"。"
+msgstr "**字符串** 用于包含文本。例如：``\"你好，世界！\"``。"
 
 #: ../../basic-data-types.rst:35
 msgid "Escape characters"
-msgstr ""
+msgstr "转义字符"
 
 #: ../../basic-data-types.rst:37
 msgid ""
 "You need to use **escape characters** to insert ``\"`` or line feed in a "
 "literal string. This is a modern alternative to ``Chr`` function."
-msgstr ""
+msgstr "你需要使用 **转义字符** 以向字面量字符串中插入 ``\"`` 或换行符。"
+"这是一种现代的 ``Chr`` 函数替代方案。"
 
 #: ../../basic-data-types.rst:40
 msgid "Character"
-msgstr ""
+msgstr "字符"
 
 #: ../../basic-data-types.rst:40
 msgid "Result"
-msgstr ""
+msgstr "结果"
 
 #: ../../basic-data-types.rst:42
 msgid "``\\'``"
-msgstr ""
+msgstr "``\\'``"
 
 #: ../../basic-data-types.rst:42
 msgid "single quote"
-msgstr ""
+msgstr "单引号"
 
 #: ../../basic-data-types.rst:44
 msgid "``\\\"``"
-msgstr ""
+msgstr "``\\\"``"
 
 #: ../../basic-data-types.rst:44
 msgid "double quote"
-msgstr ""
+msgstr "双引号"
 
 #: ../../basic-data-types.rst:46
 msgid "``\\\\``"
-msgstr ""
+msgstr "``\\\\``"
 
 #: ../../basic-data-types.rst:46
 msgid "backslash"
-msgstr ""
+msgstr "反斜杠"
 
 #: ../../basic-data-types.rst:48
 msgid "``\\n``"
 msgstr ""
+"``\\n"
+"``"
 
 #: ../../basic-data-types.rst:48
 msgid "new line"
-msgstr ""
+msgstr "换行符"
 
 #: ../../basic-data-types.rst:50
 msgid "``\\r``"
-msgstr ""
+msgstr "``\\r``"
 
 #: ../../basic-data-types.rst:50
 msgid "carriage return"
-msgstr ""
+msgstr "回车"
 
 #: ../../basic-data-types.rst:52
 msgid "``\\t``"
-msgstr ""
+msgstr "``\\t``"
 
 #: ../../basic-data-types.rst:52
 msgid "tab"
-msgstr ""
+msgstr "制表符"
 
 #: ../../basic-data-types.rst:54
 msgid "``\\b``"
-msgstr ""
+msgstr "``\\b``"
 
 #: ../../basic-data-types.rst:54
 msgid "backspace"
-msgstr ""
+msgstr "退格"
 
 #: ../../basic-data-types.rst:56
 msgid "``\\f``"
-msgstr ""
+msgstr "``\\f``"
 
 #: ../../basic-data-types.rst:56
 msgid "form feed"
-msgstr ""
+msgstr "换页符"
 
 #: ../../basic-data-types.rst:59
 msgid ""
@@ -172,6 +168,9 @@ msgid ""
 "method with escape characters, as it processes at compile time and produces "
 "fewer string objects at runtime."
 msgstr ""
+"以下的示例展示了转义字符的使用。以下两行代码都会打印 ``Hello\"World!``。"
+"推荐使用转义字符来替代传统的 BlitzBasic "
+"写法，因为转义字符是在编译期处理，并能减少运行时的字符串对象数量。"
 
 #: ../../basic-data-types.rst:71 ../../basic-data-types.rst:90
 #: ../../basic-data-types.rst:98
@@ -304,10 +303,8 @@ msgid ""
 msgstr "``name%(arg1$, arg2# = 3.14)`` 是 **函数签名**，其中包括："
 
 #: ../../functions.rst:18
-#, fuzzy
-#| msgid "``name`` is the function name, can be any valid identifier."
 msgid "``name`` is the function name, can be any valid :ref:`identifiers`."
-msgstr "``name`` 是函数名，可以是任何有效标识符。"
+msgstr "``name`` 是函数名，可以是任何有效 :ref:`identifiers` 。"
 
 #: ../../functions.rst:20
 msgid ""
@@ -353,19 +350,14 @@ msgid ""
 msgstr "**外部函数** 是使用其他编程语言实现的，由 ZiYue4D 程序调用的函数。"
 
 #: ../../functions.rst:37
-#, fuzzy
-#| msgid ""
-#| "Using ``Extern`` keyword before its signature to declare an external "
-#| "function. External functions should not have a function definition. This "
-#| "concept is designed for replacing ``.decls`` in Blitz3D."
 msgid ""
 "Using ``Extern`` keyword before its signature to declare an external "
 "function. External functions should not have a function definition. Unlike "
 "regular functions, if return value type is omitted, the type will be "
 "``void``, which means no return value."
-msgstr ""
-"在函数签名前使用 ``Extern`` 关键字来声明外部函数。外部函数没有函数实现。这一"
-"设计被用来替代 Blitz3D 中的 ``.decls``。"
+msgstr "在函数签名前使用 ``Extern`` "
+"关键字来声明外部函数。外部函数没有函数实现。与一般的函数不同，如果未指明返回"
+"值类型，则默认无返回值。"
 
 #: ../../functions.rst:39
 msgid "This concept is designed for replacing ``.decls`` in Blitz3D."
@@ -415,7 +407,7 @@ msgstr ""
 
 #: ../../identifiers.rst:4
 msgid "Identifiers"
-msgstr ""
+msgstr "标识符"
 
 #: ../../identifiers.rst:6
 msgid ""
@@ -458,15 +450,13 @@ msgid "Welcome to ZiYue4D documentation!"
 msgstr "欢迎来到 ZiYue4D 文档！"
 
 #: ../../index.rst:4
-#, fuzzy
-#| msgid ""
-#| "**ZiYue4D** is a programming language that is powered by LLVM and is "
-#| "based on BlitzBasic."
 msgid ""
 "**ZiYue4D** is a programming language that is powered by LLVM and is based "
 "on BlitzBasic. It is intended to be a modern cross-platform alternative to "
 "BlitzBasic."
-msgstr "**ZiYue4D** 是一个基于 BlitzBasic 设计的，由 LLVM 驱动的编程语言。"
+msgstr ""
+"**ZiYue4D** 是一个基于 BlitzBasic 设计的，由 LLVM "
+"驱动的编程语言。一种现代的、跨平台的 BlitzBasic 替代品。"
 
 #: ../../index.rst:8
 msgid "This project is under active development."
@@ -504,14 +494,12 @@ msgid ""
 msgstr "对函数名使用 ``&`` 一元运算符来获取函数指针。"
 
 #: ../../unsafe-operations.rst:15
-#, fuzzy
-#| msgid "The example below shows a declaration of an external function."
 msgid "The example below shows retrieve a function pointer."
-msgstr "以下的示例展示了一个外部函数的声明。"
+msgstr "以下的示例展示了获取函数的函数指针。"
 
 #: ../../variables.rst:2
 msgid "Variables"
-msgstr ""
+msgstr "变量"
 
 #: ../../variables.rst:4
 msgid ""
