@@ -2,13 +2,14 @@
 # Copyright (C) 2025 ZiYueCommentary
 # This file is distributed under the same license as the ZiYue4D package.
 # 子悦解说 <ziyuecommentary@gmail.com>, 2025.
+# 晨魔 <morningdemon515@outlook.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-03 11:33+0800\n"
-"PO-Revision-Date: 2025-10-03 03:42+0000\n"
-"Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
+"PO-Revision-Date: 2025-10-04 19:47+0000\n"
+"Last-Translator: 晨魔 <morningdemon515@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -181,13 +182,14 @@ msgstr "指针"
 msgid ""
 "**Pointer** are objects that store a memory address. This type is for "
 "solving that pointers are stored in an integer in BlitzBasic."
-msgstr ""
+msgstr "**指针** 是存储内存地址的对象。这种类型用于解决在 BlitzBasic "
+"中指针存储在整数中的问题。"
 
 #: ../../basic-data-types.rst:75 ../../basic-data-types.rst:102
 msgid ""
 "When assigning a pointer to an integer variable, ZiYue4D will automatically "
 "raise the variable to pointer type."
-msgstr ""
+msgstr "在将指针分配给整数变量时，ZiYue4D 会自动将该变量提升为指针类型。"
 
 #: ../../basic-data-types.rst:78
 msgid "Implicit conversion"
@@ -198,14 +200,17 @@ msgid ""
 "**Implicit conversion** plays an important role in ZiYue4D. Most of the "
 "conversion in ZiYue4D is implicit, and observes the same rules as in "
 "BlitzBasic."
-msgstr ""
+msgstr "**隐式转换** "
+"在ZiYue4D中扮演着重要的角色。大多数的转换在ZiYue4D中是隐式的，并且与BlitzBasi"
+"c是一样的。"
 
 #: ../../basic-data-types.rst:82
 msgid ""
 "When an binary operation involves two different data types, ZiYue4D will "
 "automatically convert one of the operands to the other type. The conversion "
 "rules are as follows:"
-msgstr ""
+msgstr "当一个二元运算涉及两种不同的数据类型时，ZiYue4D "
+"会自动将其中一个操作数转换为另一种类型。转换规则如下："
 
 #: ../../basic-data-types.rst:84
 msgid ""
@@ -215,16 +220,16 @@ msgstr "指针不能转换为其他类型，也没有其他类型可以转换为
 
 #: ../../basic-data-types.rst:85
 msgid "If one operand is a string, the other is converted to a string."
-msgstr ""
+msgstr "如果其中一个操作数是字符串，另外一个会被转换为字符串。"
 
 #: ../../basic-data-types.rst:86
 msgid ""
 "If one operand is floating point, the other is converted to floating point."
-msgstr ""
+msgstr "如果其中一个操作数是浮点，另外一个会被转换为浮点。"
 
 #: ../../basic-data-types.rst:87
 msgid "Otherwise, both operands are integers."
-msgstr ""
+msgstr "否则，两个操作数都是整数。"
 
 #: ../../basic-data-types.rst:90
 msgid "From \\\\ To"
@@ -262,7 +267,8 @@ msgstr "浮点转整数会四舍五入到最近的整数，可能导致精度丢
 msgid ""
 "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D "
 "will raise the variable to pointer type automatically."
-msgstr ""
+msgstr "将指针存储在整数中是已弃用的 BlitzBasic 做法。ZiYue4D "
+"会自动将变量提升为指针类型。"
 
 #: ../../comments.rst:2
 msgid "Comments"
@@ -290,11 +296,11 @@ msgstr "函数"
 
 #: ../../functions.rst:6
 msgid "Functions cannot be declared inside a function."
-msgstr ""
+msgstr "函数不能在另一个函数内部声明。"
 
 #: ../../functions.rst:8
 msgid "A function is defined using the ``Function`` keyword:"
-msgstr ""
+msgstr "定义一个函数要用``Function``关键字："
 
 #: ../../functions.rst:16
 msgid ""
@@ -307,10 +313,11 @@ msgid "``name`` is the function name, can be any valid :ref:`identifiers`."
 msgstr "``name`` 是函数名，可以是任何有效 :ref:`identifiers` 。"
 
 #: ../../functions.rst:20
+#, fuzzy
 msgid ""
 "``%`` is the type of value returned by the function. If it is omitted, the "
 "function returns an integer value by default."
-msgstr ""
+msgstr "``%``是函数返回值的类型。如果省略，函数默认返回一个整数值。"
 
 #: ../../functions.rst:22
 msgid ""
@@ -318,18 +325,24 @@ msgid ""
 "a **mandatory argument** with no default value. ``arg2#`` is an **optional "
 "argument** since it has a default value. Arguments are always local."
 msgstr ""
+"``arg1$, arg2# = 3.14`` 是一个用逗号分隔的参数列表。`arg1$` "
+"是一个**必需参数**，没有默认值。``arg2#`` 一个 "
+"**可选参数**，因为它有默认值。参数总是局部的。"
 
 #: ../../functions.rst:24
 msgid ""
 "The statements between signature and ``End Function`` are the **function "
 "definition**. All ZiYue4D functions should have signature and definition."
-msgstr ""
+msgstr "签名与``End "
+"Function``之间的语句是**函数定义**。所有ZiYue4D函数都应具有签名和定义。"
 
 #: ../../functions.rst:26
+#, fuzzy
 msgid ""
 "A function may use the ``Return`` statement to return a result. ``Return`` "
 "may optionally be followed by an expression."
-msgstr ""
+msgstr "一个函数可能会使用``Return``来返回一个结果。``Return``后面可以可选地跟一个表"
+"达式。"
 
 #: ../../functions.rst:28
 msgid ""
@@ -338,6 +351,9 @@ msgid ""
 "functions, an empty string ``\"\"`` for string functions, or a Null object "
 "for custom-type functions."
 msgstr ""
+"如果没有 ``Return`` 语句，或者使用了没有任何表达式的 "
+"``Return``，函数将返回默认值：对于数值函数返回 ``0``，"
+"对于字符串函数返回空字符串 ``\"\"``，对于自定义类型函数返回空对象（Null）。"
 
 #: ../../functions.rst:33
 msgid "Exteral function"
@@ -361,7 +377,7 @@ msgstr "在函数签名前使用 ``Extern`` "
 
 #: ../../functions.rst:39
 msgid "This concept is designed for replacing ``.decls`` in Blitz3D."
-msgstr ""
+msgstr "这个概念旨在替换 Blitz3D 中的 ``.decls``。"
 
 #: ../../functions.rst:41
 msgid "The example below shows a declaration of an external function."
@@ -413,7 +429,7 @@ msgstr "标识符"
 msgid ""
 "Identifiers are used for constant names, variable names, array names, "
 "function names, and custom type names."
-msgstr ""
+msgstr "标识符用于常量名、变量名、数组名、函数名和自定义类型名。"
 
 #: ../../identifiers.rst:8
 msgid ""
@@ -421,6 +437,9 @@ msgid ""
 "example, ``Hello``, ``player1``, ``time_to_live``, ``__var``, ``变量`` are "
 "all valid identifiers."
 msgstr ""
+"标识符支持 Unicode "
+"字符，但不能以数字开头。例如，``Hello``、``player1``、``time_to_live``、``__v"
+"ar``、``变量`` 都是有效的标识符。"
 
 #: ../../identifiers.rst:10
 msgid ""
@@ -428,6 +447,8 @@ msgid ""
 "``test`` are all the same identifiers. Note that this works for alphabets "
 "only, Unicode identifiers may be case-sensitive."
 msgstr ""
+"标识符不区分大小写。例如，``Test``、``TEST`` 和 ``test`` "
+"都是相同的标识符。请注意，这仅适用于字母，Unicode 标识符可能区分大小写。"
 
 #: ../../identifiers.rst:12
 msgid ""
