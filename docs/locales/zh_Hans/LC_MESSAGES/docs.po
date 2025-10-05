@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-03 11:33+0800\n"
-"PO-Revision-Date: 2025-10-04 19:47+0000\n"
+"PO-Revision-Date: 2025-10-05 03:12+0000\n"
 "Last-Translator: 晨魔 <morningdemon515@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
@@ -300,7 +300,7 @@ msgstr "函数不能在另一个函数内部声明。"
 
 #: ../../functions.rst:8
 msgid "A function is defined using the ``Function`` keyword:"
-msgstr "定义一个函数要用``Function``关键字："
+msgstr "定义一个函数要用 ``Function`` 关键字："
 
 #: ../../functions.rst:16
 msgid ""
@@ -313,11 +313,10 @@ msgid "``name`` is the function name, can be any valid :ref:`identifiers`."
 msgstr "``name`` 是函数名，可以是任何有效 :ref:`identifiers` 。"
 
 #: ../../functions.rst:20
-#, fuzzy
 msgid ""
 "``%`` is the type of value returned by the function. If it is omitted, the "
 "function returns an integer value by default."
-msgstr "``%``是函数返回值的类型。如果省略，函数默认返回一个整数值。"
+msgstr "``%`` 是函数返回值的类型。如果省略，函数默认返回一个整数值。"
 
 #: ../../functions.rst:22
 msgid ""
@@ -325,24 +324,23 @@ msgid ""
 "a **mandatory argument** with no default value. ``arg2#`` is an **optional "
 "argument** since it has a default value. Arguments are always local."
 msgstr ""
-"``arg1$, arg2# = 3.14`` 是一个用逗号分隔的参数列表。`arg1$` "
-"是一个**必需参数**，没有默认值。``arg2#`` 一个 "
+"``arg1$, arg2# = 3.14`` 是一个用逗号分隔的参数列表。``arg1$`` 是一个 "
+"**必需参数**，没有默认值。``arg2#`` 一个 "
 "**可选参数**，因为它有默认值。参数总是局部的。"
 
 #: ../../functions.rst:24
 msgid ""
 "The statements between signature and ``End Function`` are the **function "
 "definition**. All ZiYue4D functions should have signature and definition."
-msgstr "签名与``End "
-"Function``之间的语句是**函数定义**。所有ZiYue4D函数都应具有签名和定义。"
+msgstr "签名与 ``End Function`` 之间的语句是 "
+"**函数定义**。所有ZiYue4D函数都应具有签名和定义。"
 
 #: ../../functions.rst:26
-#, fuzzy
 msgid ""
 "A function may use the ``Return`` statement to return a result. ``Return`` "
 "may optionally be followed by an expression."
-msgstr "一个函数可能会使用``Return``来返回一个结果。``Return``后面可以可选地跟一个表"
-"达式。"
+msgstr "一个函数可能会使用 ``Return`` 来返回一个结果。``Return`` "
+"后面可以可选地跟一个表达式。"
 
 #: ../../functions.rst:28
 msgid ""
@@ -371,9 +369,10 @@ msgid ""
 "function. External functions should not have a function definition. Unlike "
 "regular functions, if return value type is omitted, the type will be "
 "``void``, which means no return value."
-msgstr "在函数签名前使用 ``Extern`` "
-"关键字来声明外部函数。外部函数没有函数实现。与一般的函数不同，如果未指明返回"
-"值类型，则默认无返回值。"
+msgstr ""
+"使用 ``Extern`` 关键字在函数签名之前声明外部函数。 外部函数不应有函数定义。 "
+"与常规函数不同， 如果省略返回值类型， 类型将为 ``void`` "
+"，表示没有返回值类型。"
 
 #: ../../functions.rst:39
 msgid "This concept is designed for replacing ``.decls`` in Blitz3D."
@@ -457,6 +456,8 @@ msgid ""
 "``test``. When the identifier is not inside a function call, it will be seen "
 "as a function by default."
 msgstr ""
+"允许对函数和变量重复使用标识符。例如，你可以把一个变量命名为 ``test``，"
+"一个函数命名为 ``test``。当标识符不在函数调用中时，它默认会被视为函数。"
 
 #: ../../identifiers.rst:14
 msgid ""
@@ -465,6 +466,9 @@ msgid ""
 "``Foo`` is a function, and ``bar`` is a function. However, the third line is "
 "suggested, since it clearly shows which one is variable."
 msgstr ""
+"下面的示例展示了 ZiYue4D 如何区分变量和函数。在第一行， ``Foo`` 是一个函数， "
+"``bar`` 是一个变量。在第二行， ``Foo`` 是一个函数， ``bar`` "
+"是一个函数。然而，建议使用第三行，因为它清楚地显示了哪个是变量。"
 
 #: ../../index.rst:2
 msgid "Welcome to ZiYue4D documentation!"
@@ -498,6 +502,8 @@ msgid ""
 "not required. Using them improperly will cause undefined behavior, and even "
 "crash the program."
 msgstr ""
+"**不安全操作**，例如获取指针或将指针转换为整数，不推荐使用。在大多数情况下，"
+"不需要使用不安全操作。不当使用它们会导致未定义行为，甚至可能导致程序崩溃。"
 
 #: ../../unsafe-operations.rst:7
 msgid "Function pointer"
@@ -527,59 +533,61 @@ msgid ""
 "**Variables** may be of any basic data type, or a custom type. A variable's "
 "type is determined by a special character that follows its identifier. These "
 "special characters are called **type tags**."
-msgstr ""
+msgstr "**变量** "
+"可以是任何基本数据类型，或自定义类型。变量的类型由跟在其标识符后的特殊字符确"
+"定。这些特殊字符称为 **类型标签**。"
 
 #: ../../variables.rst:7
 msgid "Tag"
-msgstr ""
+msgstr "标签"
 
 #: ../../variables.rst:7
 msgid "Type"
-msgstr ""
+msgstr "类型"
 
 #: ../../variables.rst:9
 msgid "``%``"
-msgstr ""
+msgstr "``%``"
 
 #: ../../variables.rst:9
 msgid ":ref:`integer`"
-msgstr ""
+msgstr ":ref:`integer`"
 
 #: ../../variables.rst:11
 msgid "``#``"
-msgstr ""
+msgstr "``#``"
 
 #: ../../variables.rst:11
 msgid ":ref:`float`"
-msgstr ""
+msgstr ":ref:`float`"
 
 #: ../../variables.rst:13
 msgid "``$``"
-msgstr ""
+msgstr "``$``"
 
 #: ../../variables.rst:13
 msgid ":ref:`string`"
-msgstr ""
+msgstr ":ref:`string`"
 
 #: ../../variables.rst:15
 msgid "``@``"
-msgstr ""
+msgstr "``@``"
 
 #: ../../variables.rst:15
 msgid ":ref:`pointer`"
-msgstr ""
+msgstr ":ref:`pointer`"
 
 #: ../../variables.rst:18
 msgid ""
 "The type tag only needs to be added the first time you use a variable, after "
 "that you can leave the type tag off if you wish."
-msgstr ""
+msgstr "类型标签只需在第一次使用变量时添加，之后如果愿意可以省略类型标签。"
 
 #: ../../variables.rst:20
 msgid ""
 "If you don't supply a type tag the first time a variable is used, the "
 "variable defaults to an integer."
-msgstr ""
+msgstr "如果你没有为变量指定类型标签，变量会默认为整型。"
 
 #: ../../variables.rst:22
 msgid ""
@@ -587,10 +595,12 @@ msgid ""
 "example, if you already have an integer variable called ``name%``, it is "
 "illegal to also have a string variable called ``name$``."
 msgstr ""
+"使用相同变量名但类型不同是非法的。例如，如果你已经将一个变量声明为 ``name%`` "
+"，那么如果你再声明另外一个变量为 ``name$`` 那就是非法的。"
 
 #: ../../variables.rst:25
 msgid "Assignment"
-msgstr ""
+msgstr "赋值"
 
 #: ../../variables.rst:27
 msgid ""
@@ -599,10 +609,13 @@ msgid ""
 "expression returns the assigned value, which means you can do assignment and "
 "comparison in a single line."
 msgstr ""
+"你可以用 ``=`` 来为一个变量赋值。例如： ``score% = 0`` 将会把 ``0`` "
+"赋值给整型变量 ``score`` "
+"。这个表达式返回被赋的值，这意味着你可以在一行代码中同时进行赋值和比较。"
 
 #: ../../variables.rst:34
 msgid "Scope"
-msgstr ""
+msgstr "作用域"
 
 #: ../../variables.rst:36
 msgid ""
@@ -611,20 +624,23 @@ msgid ""
 "anywhere in the program. ``Local`` variables can only be used within the "
 "function they are created in."
 msgstr ""
+"变量可以是 ``Global`` （全局）， 或者 ``Local`` （局部） "
+"。这指的是变量在程序中可能被使用的位置。 ``Global`` "
+"变量可以在程序的任何地方被使用。 ``Local`` 只能在被创建的函数中使用。"
 
 #: ../../variables.rst:38
 msgid ""
 "The ``Global`` keyword is used to define one or more global variables. For "
 "example:"
-msgstr ""
+msgstr "``Global`` 关键字用于定义一个或多个全局变量。例如："
 
 #: ../../variables.rst:44
 msgid "Defines 3 global variables."
-msgstr ""
+msgstr "定义三个全局变量。"
 
 #: ../../variables.rst:46
 msgid "Similarly, ``Local`` is used to define local variables:"
-msgstr ""
+msgstr "同样， ``Local`` 被用于定义局部变量："
 
 #: ../../variables.rst:52
 msgid ""
@@ -635,6 +651,10 @@ msgid ""
 "definition**. This is not suggested since it creates another variable when "
 "you have a typo, leading to unexpected results."
 msgstr ""
+"上面的操作称为 **显式定义** "
+"。它表示变量声明，并在多次定义时抛出编译错误。如果你在使用变量时没有将其定义"
+"为局部或全局变量，它默认就是局部变量。这个操作称为 **隐式定义** "
+"。不建议这样做，因为在输入错误时会创建另一个变量，从而导致意外的结果。"
 
 #: ../../variables.rst:54
 msgid ""
@@ -643,3 +663,6 @@ msgid ""
 "compiler to force the program to use explicit definition, and disable "
 "implicit definition."
 msgstr ""
+"强烈建议使用 ``Local`` 或 ``Global`` "
+"来声明变量，因为这是更安全的做法。你也可以在编译器中启用安全检查，强制程序使"
+"用显式定义，并禁用隐式定义。"
