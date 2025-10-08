@@ -1,7 +1,8 @@
+.. _basic-data-types:
 Basic Data Types
 ===================================
 
-There are 4 basic data types:
+There are 4 basic data types: :ref:`integer`, :ref:`float`, :ref:`string`, and :ref:`pointer`.
 
 .. _integer:
 

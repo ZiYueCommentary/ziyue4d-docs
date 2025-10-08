@@ -32,6 +32,11 @@ If there is no ``Return`` statement, or a ``Return`` without any expression is u
 Exteral function
 ------------------------
 
+.. attention:: 
+
+    The signature of exteral function is case-sensitive. Mismatched case will cause linker error.
+    However, calling exteral function is not case-sensitive.
+
 **External functions** are implemented in other programming languages, which are to be called by ZiYue4D program.
 
 Using ``Extern`` keyword before its signature to declare an external function. External functions should not have a function definition. Unlike regular functions, if return value type is omitted, the type will be ``void``, which means no return value.

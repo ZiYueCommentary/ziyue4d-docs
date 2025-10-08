@@ -16,5 +16,7 @@ Contents
    basic-data-types
    identifiers
    variables
+   constants
+   statements
    functions
    unsafe-operations

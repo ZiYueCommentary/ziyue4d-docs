@@ -24,11 +24,11 @@ It is illegal to use the same variable name with a different type. For example, 
 Assignment
 -------------
 
-You can use ``=`` to assign a value to a variable. For example: ``score% = 0`` will assign the value ``0`` to the integer variable ``score``. This expression returns the assigned value, which means you can do assignment and comparison in a single line.
+You can use ``=`` to assign a value to a variable. For example: ``score% = 0`` will assign the value ``0`` to the integer variable ``score``. Note that ``=`` has different semantics inside assignments or if-conditions. The example below compares whether ``bar`` equals ``3`` and assigns its result to foo.
 
 .. code-block:: ziyue4d
 
-    If (foo% = 2) <> 0 Then Print("do something...")
+    foo% = (bar = 3)
 
 Scope
 -------------

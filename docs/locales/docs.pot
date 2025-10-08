@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-03 11:33+0800\n"
+"POT-Creation-Date: 2025-10-08 11:43+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,214 +16,214 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../basic-data-types.rst:2
+#: ../../basic-data-types.rst:3
 msgid "Basic Data Types"
 msgstr ""
 
-#: ../../basic-data-types.rst:4
-msgid "There are 4 basic data types:"
+#: ../../basic-data-types.rst:5
+msgid "There are 4 basic data types: :ref:`integer`, :ref:`float`, :ref:`string`, and :ref:`pointer`."
 msgstr ""
 
-#: ../../basic-data-types.rst:9
-#: ../../basic-data-types.rst:90
-#: ../../basic-data-types.rst:92
+#: ../../basic-data-types.rst:10
+#: ../../basic-data-types.rst:91
+#: ../../basic-data-types.rst:93
 msgid "Integer"
 msgstr ""
 
-#: ../../basic-data-types.rst:11
+#: ../../basic-data-types.rst:12
 msgid "**Integer** are numeric values with no fractional part in them, ``int32`` in essence. For example: ``5``, ``-10``, ``0`` are integer values. All integer values in the program must be in the range ``-2147483648`` to ``+2147483647``."
 msgstr ""
 
-#: ../../basic-data-types.rst:16
+#: ../../basic-data-types.rst:17
 msgid "Digit separator"
 msgstr ""
 
-#: ../../basic-data-types.rst:18
+#: ../../basic-data-types.rst:19
 msgid "**Digit separator** ``_`` can be used to separate a long literal number. For example, ``3_14_15_926`` is equavlant to ``31415926``."
 msgstr ""
 
-#: ../../basic-data-types.rst:23
-#: ../../basic-data-types.rst:90
-#: ../../basic-data-types.rst:94
+#: ../../basic-data-types.rst:24
+#: ../../basic-data-types.rst:91
+#: ../../basic-data-types.rst:95
 msgid "Float"
 msgstr ""
 
-#: ../../basic-data-types.rst:25
+#: ../../basic-data-types.rst:26
 msgid "**Float** are numeric values that include a fractional part. For example: ``.5``, ``-10.1``, ``0.0`` are all floating point values. You can also use :ref:`digit_separator` to separate literal."
 msgstr ""
 
-#: ../../basic-data-types.rst:30
-#: ../../basic-data-types.rst:90
-#: ../../basic-data-types.rst:96
+#: ../../basic-data-types.rst:31
+#: ../../basic-data-types.rst:91
+#: ../../basic-data-types.rst:97
 msgid "String"
 msgstr ""
 
-#: ../../basic-data-types.rst:32
+#: ../../basic-data-types.rst:33
 msgid "**String** are used to contain text. For example: ``\"Hello World!\"``."
 msgstr ""
 
-#: ../../basic-data-types.rst:35
+#: ../../basic-data-types.rst:36
 msgid "Escape characters"
 msgstr ""
 
-#: ../../basic-data-types.rst:37
+#: ../../basic-data-types.rst:38
 msgid "You need to use **escape characters** to insert ``\"`` or line feed in a literal string. This is a modern alternative to ``Chr`` function."
 msgstr ""
 
-#: ../../basic-data-types.rst:40
+#: ../../basic-data-types.rst:41
 msgid "Character"
 msgstr ""
 
-#: ../../basic-data-types.rst:40
+#: ../../basic-data-types.rst:41
 msgid "Result"
 msgstr ""
 
-#: ../../basic-data-types.rst:42
+#: ../../basic-data-types.rst:43
 msgid "``\\'``"
 msgstr ""
 
-#: ../../basic-data-types.rst:42
+#: ../../basic-data-types.rst:43
 msgid "single quote"
 msgstr ""
 
-#: ../../basic-data-types.rst:44
+#: ../../basic-data-types.rst:45
 msgid "``\\\"``"
 msgstr ""
 
-#: ../../basic-data-types.rst:44
+#: ../../basic-data-types.rst:45
 msgid "double quote"
 msgstr ""
 
-#: ../../basic-data-types.rst:46
+#: ../../basic-data-types.rst:47
 msgid "``\\\\``"
 msgstr ""
 
-#: ../../basic-data-types.rst:46
+#: ../../basic-data-types.rst:47
 msgid "backslash"
 msgstr ""
 
-#: ../../basic-data-types.rst:48
+#: ../../basic-data-types.rst:49
 msgid "``\\n``"
 msgstr ""
 
-#: ../../basic-data-types.rst:48
+#: ../../basic-data-types.rst:49
 msgid "new line"
 msgstr ""
 
-#: ../../basic-data-types.rst:50
+#: ../../basic-data-types.rst:51
 msgid "``\\r``"
 msgstr ""
 
-#: ../../basic-data-types.rst:50
+#: ../../basic-data-types.rst:51
 msgid "carriage return"
 msgstr ""
 
-#: ../../basic-data-types.rst:52
+#: ../../basic-data-types.rst:53
 msgid "``\\t``"
 msgstr ""
 
-#: ../../basic-data-types.rst:52
+#: ../../basic-data-types.rst:53
 msgid "tab"
 msgstr ""
 
-#: ../../basic-data-types.rst:54
+#: ../../basic-data-types.rst:55
 msgid "``\\b``"
 msgstr ""
 
-#: ../../basic-data-types.rst:54
+#: ../../basic-data-types.rst:55
 msgid "backspace"
 msgstr ""
 
-#: ../../basic-data-types.rst:56
+#: ../../basic-data-types.rst:57
 msgid "``\\f``"
 msgstr ""
 
-#: ../../basic-data-types.rst:56
+#: ../../basic-data-types.rst:57
 msgid "form feed"
 msgstr ""
 
-#: ../../basic-data-types.rst:59
+#: ../../basic-data-types.rst:60
 msgid "The example below shows the usage of the escape character. Both of them print ``Hello\"World!``. It is recommended to replace the legacy BlitzBasic method with escape characters, as it processes at compile time and produces fewer string objects at runtime."
 msgstr ""
 
-#: ../../basic-data-types.rst:71
-#: ../../basic-data-types.rst:90
-#: ../../basic-data-types.rst:98
+#: ../../basic-data-types.rst:72
+#: ../../basic-data-types.rst:91
+#: ../../basic-data-types.rst:99
 msgid "Pointer"
 msgstr ""
 
-#: ../../basic-data-types.rst:73
+#: ../../basic-data-types.rst:74
 msgid "**Pointer** are objects that store a memory address. This type is for solving that pointers are stored in an integer in BlitzBasic."
 msgstr ""
 
-#: ../../basic-data-types.rst:75
-#: ../../basic-data-types.rst:102
+#: ../../basic-data-types.rst:76
+#: ../../basic-data-types.rst:103
 msgid "When assigning a pointer to an integer variable, ZiYue4D will automatically raise the variable to pointer type."
 msgstr ""
 
-#: ../../basic-data-types.rst:78
+#: ../../basic-data-types.rst:79
 msgid "Implicit conversion"
 msgstr ""
 
-#: ../../basic-data-types.rst:80
+#: ../../basic-data-types.rst:81
 msgid "**Implicit conversion** plays an important role in ZiYue4D. Most of the conversion in ZiYue4D is implicit, and observes the same rules as in BlitzBasic."
 msgstr ""
 
-#: ../../basic-data-types.rst:82
+#: ../../basic-data-types.rst:83
 msgid "When an binary operation involves two different data types, ZiYue4D will automatically convert one of the operands to the other type. The conversion rules are as follows:"
 msgstr ""
 
-#: ../../basic-data-types.rst:84
+#: ../../basic-data-types.rst:85
 msgid "Pointers cannot be converted to any other type, and no other type can be converted to pointers. [#f1]_"
 msgstr ""
 
-#: ../../basic-data-types.rst:85
+#: ../../basic-data-types.rst:86
 msgid "If one operand is a string, the other is converted to a string."
 msgstr ""
 
-#: ../../basic-data-types.rst:86
+#: ../../basic-data-types.rst:87
 msgid "If one operand is floating point, the other is converted to floating point."
 msgstr ""
 
-#: ../../basic-data-types.rst:87
+#: ../../basic-data-types.rst:88
 msgid "Otherwise, both operands are integers."
 msgstr ""
 
-#: ../../basic-data-types.rst:90
+#: ../../basic-data-types.rst:91
 msgid "From \\\\ To"
 msgstr ""
 
-#: ../../basic-data-types.rst:92
-#: ../../basic-data-types.rst:94
-#: ../../basic-data-types.rst:96
-#: ../../basic-data-types.rst:98
+#: ../../basic-data-types.rst:93
+#: ../../basic-data-types.rst:95
+#: ../../basic-data-types.rst:97
+#: ../../basic-data-types.rst:99
 msgid "✅"
 msgstr ""
 
-#: ../../basic-data-types.rst:92
-#: ../../basic-data-types.rst:94
-#: ../../basic-data-types.rst:96
-#: ../../basic-data-types.rst:98
+#: ../../basic-data-types.rst:93
+#: ../../basic-data-types.rst:95
+#: ../../basic-data-types.rst:97
+#: ../../basic-data-types.rst:99
 msgid "❌"
 msgstr ""
 
-#: ../../basic-data-types.rst:94
+#: ../../basic-data-types.rst:95
 msgid "❗ [#f2]_"
 msgstr ""
 
-#: ../../basic-data-types.rst:98
+#: ../../basic-data-types.rst:99
 msgid "❗ [#f3]_"
 msgstr ""
 
-#: ../../basic-data-types.rst:101
+#: ../../basic-data-types.rst:102
 msgid "Footnotes"
 msgstr ""
 
-#: ../../basic-data-types.rst:103
+#: ../../basic-data-types.rst:104
 msgid "Float to Integer will round to the nearest integer. This may lead to loss of accuracy."
 msgstr ""
 
-#: ../../basic-data-types.rst:104
+#: ../../basic-data-types.rst:105
 msgid "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D will raise the variable to pointer type automatically."
 msgstr ""
 
@@ -237,6 +237,34 @@ msgstr ""
 
 #: ../../comments.rst:6
 msgid "``/* */`` is also supported for block comments. Everything between ``/*`` and ``*/`` will be ignored, even if it spans multiple lines. Block comments do not nest."
+msgstr ""
+
+#: ../../constants.rst:2
+msgid "Constants"
+msgstr ""
+
+#: ../../constants.rst:4
+msgid "**Constants** are fixed values that  will not change during the course of the program. These are useful when you want to name immutable values."
+msgstr ""
+
+#: ../../constants.rst:6
+msgid "Constants can be most of :ref:`basic-data-types`, excluding :ref:`pointer`. Expression of constants must be evaluated during compilation."
+msgstr ""
+
+#: ../../constants.rst:8
+msgid "The ``Const`` keyword is used to assign an identifier to a constant. For example:"
+msgstr ""
+
+#: ../../constants.rst:14
+msgid "You can then use the more readable ``width`` and ``height`` throughout your program instead of ``640`` and ``480``. Also, if you decide to change the ``width`` and ``height`` values, you only have to do so at one place in the program."
+msgstr ""
+
+#: ../../constants.rst:18
+msgid "Using another constant in the constant expression is undefined behavior, since the initialization order does not depend on their order in the source code."
+msgstr ""
+
+#: ../../constants.rst:20
+msgid "The example below shows this behavior. When the compiler initializes ``foo%`` before ``bar%``, this code will work properly. Conversely, it causes a compiler error."
 msgstr ""
 
 #: ../../functions.rst:2
@@ -283,47 +311,51 @@ msgstr ""
 msgid "Exteral function"
 msgstr ""
 
-#: ../../functions.rst:35
+#: ../../functions.rst:37
+msgid "The signature of exteral function is case-sensitive. Mismatched case will cause linker error. However, calling exteral function is not case-sensitive."
+msgstr ""
+
+#: ../../functions.rst:40
 msgid "**External functions** are implemented in other programming languages, which are to be called by ZiYue4D program."
 msgstr ""
 
-#: ../../functions.rst:37
+#: ../../functions.rst:42
 msgid "Using ``Extern`` keyword before its signature to declare an external function. External functions should not have a function definition. Unlike regular functions, if return value type is omitted, the type will be ``void``, which means no return value."
 msgstr ""
 
-#: ../../functions.rst:39
+#: ../../functions.rst:44
 msgid "This concept is designed for replacing ``.decls`` in Blitz3D."
 msgstr ""
 
-#: ../../functions.rst:41
+#: ../../functions.rst:46
 msgid "The example below shows a declaration of an external function."
 msgstr ""
 
-#: ../../functions.rst:50
+#: ../../functions.rst:55
 msgid "Function overloading"
 msgstr ""
 
-#: ../../functions.rst:54
+#: ../../functions.rst:59
 msgid ":ref:`extern-function` does not support overloading."
 msgstr ""
 
-#: ../../functions.rst:56
+#: ../../functions.rst:61
 msgid "When multiple functions need to share the same name, ZiYue4D will check its arguments to determine whether it is overridable. Basically, the regulation of overloading is:"
 msgstr ""
 
-#: ../../functions.rst:58
+#: ../../functions.rst:63
 msgid "The functions share the same name."
 msgstr ""
 
-#: ../../functions.rst:59
+#: ../../functions.rst:64
 msgid "Their number of mandatory arguments and optional arguments is unique."
 msgstr ""
 
-#: ../../functions.rst:60
+#: ../../functions.rst:65
 msgid "The return value type and argument types are irrelevant to overloading."
 msgstr ""
 
-#: ../../functions.rst:62
+#: ../../functions.rst:67
 msgid "The example below shows the overloading. The first and the second are valid since they have different counts of mandatory and optional arguments. The third one is invalid, in contrast, even though its argument types are unique."
 msgstr ""
 
@@ -365,6 +397,62 @@ msgstr ""
 
 #: ../../index.rst:11
 msgid "Contents"
+msgstr ""
+
+#: ../../statements.rst:2
+msgid "Statements"
+msgstr ""
+
+#: ../../statements.rst:4
+msgid "**Statements** are fragments of the program that are executed in sequence, usually contains a **condition expression**."
+msgstr ""
+
+#: ../../statements.rst:8
+msgid "``=`` operator in condition expression represents relational operation \"equals\", equavlant to ``==``."
+msgstr ""
+
+#: ../../statements.rst:11
+msgid "Selection statements"
+msgstr ""
+
+#: ../../statements.rst:13
+msgid "A **selection statement** chooses between one of several control flows."
+msgstr ""
+
+#: ../../statements.rst:16
+msgid "If statement"
+msgstr ""
+
+#: ../../statements.rst:18
+msgid "**If statement** conditionally executes another statement."
+msgstr ""
+
+#: ../../statements.rst:30
+msgid "``foo = 3.14`` is a **condition expression**, when the expression is not ``0``, the **true statement** will be executed. Condition expression must returns an :ref:`integer` value. ``Then`` keyword is optional."
+msgstr ""
+
+#: ../../statements.rst:32
+msgid "You can add optional ``ElseIf`` and ``Else`` parts for different conditions. These statements can execute one at the same time. Note that ``Else`` can only be used once."
+msgstr ""
+
+#: ../../statements.rst:34
+msgid "You can also fold the if statement into a single line. Note that no ``EndIf`` required."
+msgstr ""
+
+#: ../../statements.rst:41
+msgid "Iteration statements"
+msgstr ""
+
+#: ../../statements.rst:42
+msgid "An **iteration statement** repeatedly executes some code."
+msgstr ""
+
+#: ../../statements.rst:45
+msgid "While statement"
+msgstr ""
+
+#: ../../statements.rst:50
+msgid "Repeat statement"
 msgstr ""
 
 #: ../../unsafe-operations.rst:2
@@ -456,7 +544,7 @@ msgid "Assignment"
 msgstr ""
 
 #: ../../variables.rst:27
-msgid "You can use ``=`` to assign a value to a variable. For example: ``score% = 0`` will assign the value ``0`` to the integer variable ``score``. This expression returns the assigned value, which means you can do assignment and comparison in a single line."
+msgid "You can use ``=`` to assign a value to a variable. For example: ``score% = 0`` will assign the value ``0`` to the integer variable ``score``. Note that ``=`` has different semantics inside assignments or if-conditions. The example below compares whether ``bar`` equals ``3`` and assigns its result to foo."
 msgstr ""
 
 #: ../../variables.rst:34
