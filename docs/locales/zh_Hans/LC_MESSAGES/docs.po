@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-03 11:33+0800\n"
+"POT-Creation-Date: 2025-10-08 11:43+0800\n"
 "PO-Revision-Date: 2025-10-05 03:12+0000\n"
 "Last-Translator: 晨魔 <morningdemon515@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -19,256 +19,261 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 5.13.3\n"
 
-#: ../../basic-data-types.rst:2
+#: ../../basic-data-types.rst:3
 msgid "Basic Data Types"
 msgstr "基本数据类型"
 
-#: ../../basic-data-types.rst:4
-msgid "There are 4 basic data types:"
-msgstr "ZiYue4D 中共有 4 种数据类型："
+#: ../../basic-data-types.rst:5
+msgid ""
+"There are 4 basic data types: :ref:`integer`, :ref:`float`, :ref:`string`, "
+"and :ref:`pointer`."
+msgstr ""
 
-#: ../../basic-data-types.rst:9 ../../basic-data-types.rst:90
-#: ../../basic-data-types.rst:92
+#: ../../basic-data-types.rst:10 ../../basic-data-types.rst:91
+#: ../../basic-data-types.rst:93
 msgid "Integer"
 msgstr "整数"
 
-#: ../../basic-data-types.rst:11
+#: ../../basic-data-types.rst:12
 msgid ""
 "**Integer** are numeric values with no fractional part in them, ``int32`` in "
 "essence. For example: ``5``, ``-10``, ``0`` are integer values. All integer "
 "values in the program must be in the range ``-2147483648`` to "
 "``+2147483647``."
 msgstr ""
-"**整数** 是没有小数部分的数值，本质上是 "
-"``int32``。例如：``5``、``-10``、``0`` 是整数值。程序中的所有整数值必须在 "
-"``-2147483648`` 到 ``+2147483647`` 的范围内。"
+"**整数** 是没有小数部分的数值，本质上是 ``int32``。例如：``5``、``-10``、"
+"``0`` 是整数值。程序中的所有整数值必须在 ``-2147483648`` 到 ``+2147483647`` "
+"的范围内。"
 
-#: ../../basic-data-types.rst:16
+#: ../../basic-data-types.rst:17
 msgid "Digit separator"
 msgstr "数字分隔符"
 
-#: ../../basic-data-types.rst:18
+#: ../../basic-data-types.rst:19
 msgid ""
 "**Digit separator** ``_`` can be used to separate a long literal number. For "
 "example, ``3_14_15_926`` is equavlant to ``31415926``."
-msgstr "**数字分隔符** ``_`` 可用于分割一段较长的字面量数字。例如，``3_14_15_926`` "
-"等价于 ``31415926``。"
+msgstr ""
+"**数字分隔符** ``_`` 可用于分割一段较长的字面量数字。例如，``3_14_15_926`` 等"
+"价于 ``31415926``。"
 
-#: ../../basic-data-types.rst:23 ../../basic-data-types.rst:90
-#: ../../basic-data-types.rst:94
+#: ../../basic-data-types.rst:24 ../../basic-data-types.rst:91
+#: ../../basic-data-types.rst:95
 msgid "Float"
 msgstr "浮点"
 
-#: ../../basic-data-types.rst:25
+#: ../../basic-data-types.rst:26
 msgid ""
 "**Float** are numeric values that include a fractional part. For example: "
 "``.5``, ``-10.1``, ``0.0`` are all floating point values. You can also "
 "use :ref:`digit_separator` to separate literal."
 msgstr ""
-"**浮点数** 是包含小数部分的数值。例如：``.5``、``-10.1``、``0.0`` "
-"都是浮点值。你也可以使用 :ref:`digit_separator` 来分割字面量。"
+"**浮点数** 是包含小数部分的数值。例如：``.5``、``-10.1``、``0.0`` 都是浮点"
+"值。你也可以使用 :ref:`digit_separator` 来分割字面量。"
 
-#: ../../basic-data-types.rst:30 ../../basic-data-types.rst:90
-#: ../../basic-data-types.rst:96
+#: ../../basic-data-types.rst:31 ../../basic-data-types.rst:91
+#: ../../basic-data-types.rst:97
 msgid "String"
 msgstr "字符串"
 
-#: ../../basic-data-types.rst:32
+#: ../../basic-data-types.rst:33
 msgid "**String** are used to contain text. For example: ``\"Hello World!\"``."
 msgstr "**字符串** 用于包含文本。例如：``\"你好，世界！\"``。"
 
-#: ../../basic-data-types.rst:35
+#: ../../basic-data-types.rst:36
 msgid "Escape characters"
 msgstr "转义字符"
 
-#: ../../basic-data-types.rst:37
+#: ../../basic-data-types.rst:38
 msgid ""
 "You need to use **escape characters** to insert ``\"`` or line feed in a "
 "literal string. This is a modern alternative to ``Chr`` function."
-msgstr "你需要使用 **转义字符** 以向字面量字符串中插入 ``\"`` 或换行符。"
-"这是一种现代的 ``Chr`` 函数替代方案。"
+msgstr ""
+"你需要使用 **转义字符** 以向字面量字符串中插入 ``\"`` 或换行符。这是一种现代"
+"的 ``Chr`` 函数替代方案。"
 
-#: ../../basic-data-types.rst:40
+#: ../../basic-data-types.rst:41
 msgid "Character"
 msgstr "字符"
 
-#: ../../basic-data-types.rst:40
+#: ../../basic-data-types.rst:41
 msgid "Result"
 msgstr "结果"
 
-#: ../../basic-data-types.rst:42
+#: ../../basic-data-types.rst:43
 msgid "``\\'``"
 msgstr "``\\'``"
 
-#: ../../basic-data-types.rst:42
+#: ../../basic-data-types.rst:43
 msgid "single quote"
 msgstr "单引号"
 
-#: ../../basic-data-types.rst:44
+#: ../../basic-data-types.rst:45
 msgid "``\\\"``"
 msgstr "``\\\"``"
 
-#: ../../basic-data-types.rst:44
+#: ../../basic-data-types.rst:45
 msgid "double quote"
 msgstr "双引号"
 
-#: ../../basic-data-types.rst:46
+#: ../../basic-data-types.rst:47
 msgid "``\\\\``"
 msgstr "``\\\\``"
 
-#: ../../basic-data-types.rst:46
+#: ../../basic-data-types.rst:47
 msgid "backslash"
 msgstr "反斜杠"
 
-#: ../../basic-data-types.rst:48
+#: ../../basic-data-types.rst:49
 msgid "``\\n``"
-msgstr ""
-"``\\n"
-"``"
+msgstr "``\\n``"
 
-#: ../../basic-data-types.rst:48
+#: ../../basic-data-types.rst:49
 msgid "new line"
 msgstr "换行符"
 
-#: ../../basic-data-types.rst:50
+#: ../../basic-data-types.rst:51
 msgid "``\\r``"
 msgstr "``\\r``"
 
-#: ../../basic-data-types.rst:50
+#: ../../basic-data-types.rst:51
 msgid "carriage return"
 msgstr "回车"
 
-#: ../../basic-data-types.rst:52
+#: ../../basic-data-types.rst:53
 msgid "``\\t``"
 msgstr "``\\t``"
 
-#: ../../basic-data-types.rst:52
+#: ../../basic-data-types.rst:53
 msgid "tab"
 msgstr "制表符"
 
-#: ../../basic-data-types.rst:54
+#: ../../basic-data-types.rst:55
 msgid "``\\b``"
 msgstr "``\\b``"
 
-#: ../../basic-data-types.rst:54
+#: ../../basic-data-types.rst:55
 msgid "backspace"
 msgstr "退格"
 
-#: ../../basic-data-types.rst:56
+#: ../../basic-data-types.rst:57
 msgid "``\\f``"
 msgstr "``\\f``"
 
-#: ../../basic-data-types.rst:56
+#: ../../basic-data-types.rst:57
 msgid "form feed"
 msgstr "换页符"
 
-#: ../../basic-data-types.rst:59
+#: ../../basic-data-types.rst:60
 msgid ""
 "The example below shows the usage of the escape character. Both of them "
 "print ``Hello\"World!``. It is recommended to replace the legacy BlitzBasic "
 "method with escape characters, as it processes at compile time and produces "
 "fewer string objects at runtime."
 msgstr ""
-"以下的示例展示了转义字符的使用。以下两行代码都会打印 ``Hello\"World!``。"
-"推荐使用转义字符来替代传统的 BlitzBasic "
-"写法，因为转义字符是在编译期处理，并能减少运行时的字符串对象数量。"
+"以下的示例展示了转义字符的使用。以下两行代码都会打印 ``Hello\"World!``。推荐"
+"使用转义字符来替代传统的 BlitzBasic 写法，因为转义字符是在编译期处理，并能减"
+"少运行时的字符串对象数量。"
 
-#: ../../basic-data-types.rst:71 ../../basic-data-types.rst:90
-#: ../../basic-data-types.rst:98
+#: ../../basic-data-types.rst:72 ../../basic-data-types.rst:91
+#: ../../basic-data-types.rst:99
 msgid "Pointer"
 msgstr "指针"
 
-#: ../../basic-data-types.rst:73
+#: ../../basic-data-types.rst:74
 msgid ""
 "**Pointer** are objects that store a memory address. This type is for "
 "solving that pointers are stored in an integer in BlitzBasic."
-msgstr "**指针** 是存储内存地址的对象。这种类型用于解决在 BlitzBasic "
-"中指针存储在整数中的问题。"
+msgstr ""
+"**指针** 是存储内存地址的对象。这种类型用于解决在 BlitzBasic 中指针存储在整数"
+"中的问题。"
 
-#: ../../basic-data-types.rst:75 ../../basic-data-types.rst:102
+#: ../../basic-data-types.rst:76 ../../basic-data-types.rst:103
 msgid ""
 "When assigning a pointer to an integer variable, ZiYue4D will automatically "
 "raise the variable to pointer type."
 msgstr "在将指针分配给整数变量时，ZiYue4D 会自动将该变量提升为指针类型。"
 
-#: ../../basic-data-types.rst:78
+#: ../../basic-data-types.rst:79
 msgid "Implicit conversion"
 msgstr "隐式转换"
 
-#: ../../basic-data-types.rst:80
+#: ../../basic-data-types.rst:81
 msgid ""
 "**Implicit conversion** plays an important role in ZiYue4D. Most of the "
 "conversion in ZiYue4D is implicit, and observes the same rules as in "
 "BlitzBasic."
-msgstr "**隐式转换** "
-"在ZiYue4D中扮演着重要的角色。大多数的转换在ZiYue4D中是隐式的，并且与BlitzBasi"
-"c是一样的。"
+msgstr ""
+"**隐式转换** 在ZiYue4D中扮演着重要的角色。大多数的转换在ZiYue4D中是隐式的，并"
+"且与BlitzBasic是一样的。"
 
-#: ../../basic-data-types.rst:82
+#: ../../basic-data-types.rst:83
 msgid ""
 "When an binary operation involves two different data types, ZiYue4D will "
 "automatically convert one of the operands to the other type. The conversion "
 "rules are as follows:"
-msgstr "当一个二元运算涉及两种不同的数据类型时，ZiYue4D "
-"会自动将其中一个操作数转换为另一种类型。转换规则如下："
+msgstr ""
+"当一个二元运算涉及两种不同的数据类型时，ZiYue4D 会自动将其中一个操作数转换为"
+"另一种类型。转换规则如下："
 
-#: ../../basic-data-types.rst:84
+#: ../../basic-data-types.rst:85
 msgid ""
 "Pointers cannot be converted to any other type, and no other type can be "
 "converted to pointers. [#f1]_"
 msgstr "指针不能转换为其他类型，也没有其他类型可以转换为指针。[#f1]_"
 
-#: ../../basic-data-types.rst:85
+#: ../../basic-data-types.rst:86
 msgid "If one operand is a string, the other is converted to a string."
 msgstr "如果其中一个操作数是字符串，另外一个会被转换为字符串。"
 
-#: ../../basic-data-types.rst:86
+#: ../../basic-data-types.rst:87
 msgid ""
 "If one operand is floating point, the other is converted to floating point."
 msgstr "如果其中一个操作数是浮点，另外一个会被转换为浮点。"
 
-#: ../../basic-data-types.rst:87
+#: ../../basic-data-types.rst:88
 msgid "Otherwise, both operands are integers."
 msgstr "否则，两个操作数都是整数。"
 
-#: ../../basic-data-types.rst:90
+#: ../../basic-data-types.rst:91
 msgid "From \\\\ To"
 msgstr "自 \\\\ 至"
 
-#: ../../basic-data-types.rst:92 ../../basic-data-types.rst:94
-#: ../../basic-data-types.rst:96 ../../basic-data-types.rst:98
+#: ../../basic-data-types.rst:93 ../../basic-data-types.rst:95
+#: ../../basic-data-types.rst:97 ../../basic-data-types.rst:99
 msgid "✅"
 msgstr "✅"
 
-#: ../../basic-data-types.rst:92 ../../basic-data-types.rst:94
-#: ../../basic-data-types.rst:96 ../../basic-data-types.rst:98
+#: ../../basic-data-types.rst:93 ../../basic-data-types.rst:95
+#: ../../basic-data-types.rst:97 ../../basic-data-types.rst:99
 msgid "❌"
 msgstr "❌"
 
-#: ../../basic-data-types.rst:94
+#: ../../basic-data-types.rst:95
 msgid "❗ [#f2]_"
 msgstr "❗ [#f2]_"
 
-#: ../../basic-data-types.rst:98
+#: ../../basic-data-types.rst:99
 msgid "❗ [#f3]_"
 msgstr "❗ [#f3]_"
 
-#: ../../basic-data-types.rst:101
+#: ../../basic-data-types.rst:102
 msgid "Footnotes"
 msgstr "脚注"
 
-#: ../../basic-data-types.rst:103
+#: ../../basic-data-types.rst:104
 msgid ""
 "Float to Integer will round to the nearest integer. This may lead to loss of "
 "accuracy."
 msgstr "浮点转整数会四舍五入到最近的整数，可能导致精度丢失。"
 
-#: ../../basic-data-types.rst:104
+#: ../../basic-data-types.rst:105
 msgid ""
 "Storing a pointer in an integer is deprecated BlitzBasic practice. ZiYue4D "
 "will raise the variable to pointer type automatically."
-msgstr "将指针存储在整数中是已弃用的 BlitzBasic 做法。ZiYue4D "
-"会自动将变量提升为指针类型。"
+msgstr ""
+"将指针存储在整数中是已弃用的 BlitzBasic 做法。ZiYue4D 会自动将变量提升为指针"
+"类型。"
 
 #: ../../comments.rst:2
 msgid "Comments"
@@ -289,6 +294,54 @@ msgid ""
 msgstr ""
 "``/* */`` 可用于块注释。``/*`` 和 ``*/`` 之间的所有内容都将被忽略，并且允许跨"
 "行。块注释不可嵌套。"
+
+#: ../../constants.rst:2
+msgid "Constants"
+msgstr ""
+
+#: ../../constants.rst:4
+msgid ""
+"**Constants** are fixed values that  will not change during the course of "
+"the program. These are useful when you want to name immutable values."
+msgstr ""
+
+#: ../../constants.rst:6
+msgid ""
+"Constants can be most of :ref:`basic-data-types`, excluding :ref:`pointer`. "
+"Expression of constants must be evaluated during compilation."
+msgstr ""
+
+#: ../../constants.rst:8
+#, fuzzy
+#| msgid ""
+#| "The ``Global`` keyword is used to define one or more global variables. "
+#| "For example:"
+msgid ""
+"The ``Const`` keyword is used to assign an identifier to a constant. For "
+"example:"
+msgstr "``Global`` 关键字用于定义一个或多个全局变量。例如："
+
+#: ../../constants.rst:14
+msgid ""
+"You can then use the more readable ``width`` and ``height`` throughout your "
+"program instead of ``640`` and ``480``. Also, if you decide to change the "
+"``width`` and ``height`` values, you only have to do so at one place in the "
+"program."
+msgstr ""
+
+#: ../../constants.rst:18
+msgid ""
+"Using another constant in the constant expression is undefined behavior, "
+"since the initialization order does not depend on their order in the source "
+"code."
+msgstr ""
+
+#: ../../constants.rst:20
+msgid ""
+"The example below shows this behavior. When the compiler initializes "
+"``foo%`` before ``bar%``, this code will work properly. Conversely, it "
+"causes a compiler error."
+msgstr ""
 
 #: ../../functions.rst:2
 msgid "Functions"
@@ -324,23 +377,25 @@ msgid ""
 "a **mandatory argument** with no default value. ``arg2#`` is an **optional "
 "argument** since it has a default value. Arguments are always local."
 msgstr ""
-"``arg1$, arg2# = 3.14`` 是一个用逗号分隔的参数列表。``arg1$`` 是一个 "
-"**必需参数**，没有默认值。``arg2#`` 一个 "
-"**可选参数**，因为它有默认值。参数总是局部的。"
+"``arg1$, arg2# = 3.14`` 是一个用逗号分隔的参数列表。``arg1$`` 是一个 **必需参"
+"数**，没有默认值。``arg2#`` 一个 **可选参数**，因为它有默认值。参数总是局部"
+"的。"
 
 #: ../../functions.rst:24
 msgid ""
 "The statements between signature and ``End Function`` are the **function "
 "definition**. All ZiYue4D functions should have signature and definition."
-msgstr "签名与 ``End Function`` 之间的语句是 "
-"**函数定义**。所有ZiYue4D函数都应具有签名和定义。"
+msgstr ""
+"签名与 ``End Function`` 之间的语句是 **函数定义**。所有ZiYue4D函数都应具有签"
+"名和定义。"
 
 #: ../../functions.rst:26
 msgid ""
 "A function may use the ``Return`` statement to return a result. ``Return`` "
 "may optionally be followed by an expression."
-msgstr "一个函数可能会使用 ``Return`` 来返回一个结果。``Return`` "
-"后面可以可选地跟一个表达式。"
+msgstr ""
+"一个函数可能会使用 ``Return`` 来返回一个结果。``Return`` 后面可以可选地跟一个"
+"表达式。"
 
 #: ../../functions.rst:28
 msgid ""
@@ -349,21 +404,27 @@ msgid ""
 "functions, an empty string ``\"\"`` for string functions, or a Null object "
 "for custom-type functions."
 msgstr ""
-"如果没有 ``Return`` 语句，或者使用了没有任何表达式的 "
-"``Return``，函数将返回默认值：对于数值函数返回 ``0``，"
-"对于字符串函数返回空字符串 ``\"\"``，对于自定义类型函数返回空对象（Null）。"
+"如果没有 ``Return`` 语句，或者使用了没有任何表达式的 ``Return``，函数将返回默"
+"认值：对于数值函数返回 ``0``，对于字符串函数返回空字符串 ``\"\"``，对于自定义"
+"类型函数返回空对象（Null）。"
 
 #: ../../functions.rst:33
 msgid "Exteral function"
 msgstr "外部函数"
 
-#: ../../functions.rst:35
+#: ../../functions.rst:37
+msgid ""
+"The signature of exteral function is case-sensitive. Mismatched case will "
+"cause linker error. However, calling exteral function is not case-sensitive."
+msgstr ""
+
+#: ../../functions.rst:40
 msgid ""
 "**External functions** are implemented in other programming languages, which "
 "are to be called by ZiYue4D program."
 msgstr "**外部函数** 是使用其他编程语言实现的，由 ZiYue4D 程序调用的函数。"
 
-#: ../../functions.rst:37
+#: ../../functions.rst:42
 msgid ""
 "Using ``Extern`` keyword before its signature to declare an external "
 "function. External functions should not have a function definition. Unlike "
@@ -371,26 +432,26 @@ msgid ""
 "``void``, which means no return value."
 msgstr ""
 "使用 ``Extern`` 关键字在函数签名之前声明外部函数。 外部函数不应有函数定义。 "
-"与常规函数不同， 如果省略返回值类型， 类型将为 ``void`` "
-"，表示没有返回值类型。"
+"与常规函数不同， 如果省略返回值类型， 类型将为 ``void`` ，表示没有返回值类"
+"型。"
 
-#: ../../functions.rst:39
+#: ../../functions.rst:44
 msgid "This concept is designed for replacing ``.decls`` in Blitz3D."
 msgstr "这个概念旨在替换 Blitz3D 中的 ``.decls``。"
 
-#: ../../functions.rst:41
+#: ../../functions.rst:46
 msgid "The example below shows a declaration of an external function."
 msgstr "以下的示例展示了一个外部函数的声明。"
 
-#: ../../functions.rst:50
+#: ../../functions.rst:55
 msgid "Function overloading"
 msgstr "函数重载"
 
-#: ../../functions.rst:54
+#: ../../functions.rst:59
 msgid ":ref:`extern-function` does not support overloading."
 msgstr ":ref:`extern-function` 不支持函数重载。"
 
-#: ../../functions.rst:56
+#: ../../functions.rst:61
 msgid ""
 "When multiple functions need to share the same name, ZiYue4D will check its "
 "arguments to determine whether it is overridable. Basically, the regulation "
@@ -399,19 +460,19 @@ msgstr ""
 "当多个函数使用同一名称时，ZiYue4D 会检查它们的参数来判断是否可以重载。基本"
 "上，函数重载的规则是："
 
-#: ../../functions.rst:58
+#: ../../functions.rst:63
 msgid "The functions share the same name."
 msgstr "函数名必须一致。"
 
-#: ../../functions.rst:59
+#: ../../functions.rst:64
 msgid "Their number of mandatory arguments and optional arguments is unique."
 msgstr "每个函数的必需参数和缺省参数数量与其他函数不同。"
 
-#: ../../functions.rst:60
+#: ../../functions.rst:65
 msgid "The return value type and argument types are irrelevant to overloading."
 msgstr "返回值和参数类型不影响函数重载。"
 
-#: ../../functions.rst:62
+#: ../../functions.rst:67
 msgid ""
 "The example below shows the overloading. The first and the second are valid "
 "since they have different counts of mandatory and optional arguments. The "
@@ -436,9 +497,8 @@ msgid ""
 "example, ``Hello``, ``player1``, ``time_to_live``, ``__var``, ``变量`` are "
 "all valid identifiers."
 msgstr ""
-"标识符支持 Unicode "
-"字符，但不能以数字开头。例如，``Hello``、``player1``、``time_to_live``、``__v"
-"ar``、``变量`` 都是有效的标识符。"
+"标识符支持 Unicode 字符，但不能以数字开头。例如，``Hello``、``player1``、"
+"``time_to_live``、``__var``、``变量`` 都是有效的标识符。"
 
 #: ../../identifiers.rst:10
 msgid ""
@@ -446,8 +506,8 @@ msgid ""
 "``test`` are all the same identifiers. Note that this works for alphabets "
 "only, Unicode identifiers may be case-sensitive."
 msgstr ""
-"标识符不区分大小写。例如，``Test``、``TEST`` 和 ``test`` "
-"都是相同的标识符。请注意，这仅适用于字母，Unicode 标识符可能区分大小写。"
+"标识符不区分大小写。例如，``Test``、``TEST`` 和 ``test`` 都是相同的标识符。请"
+"注意，这仅适用于字母，Unicode 标识符可能区分大小写。"
 
 #: ../../identifiers.rst:12
 msgid ""
@@ -456,8 +516,8 @@ msgid ""
 "``test``. When the identifier is not inside a function call, it will be seen "
 "as a function by default."
 msgstr ""
-"允许对函数和变量重复使用标识符。例如，你可以把一个变量命名为 ``test``，"
-"一个函数命名为 ``test``。当标识符不在函数调用中时，它默认会被视为函数。"
+"允许对函数和变量重复使用标识符。例如，你可以把一个变量命名为 ``test``，一个函"
+"数命名为 ``test``。当标识符不在函数调用中时，它默认会被视为函数。"
 
 #: ../../identifiers.rst:14
 msgid ""
@@ -467,8 +527,8 @@ msgid ""
 "suggested, since it clearly shows which one is variable."
 msgstr ""
 "下面的示例展示了 ZiYue4D 如何区分变量和函数。在第一行， ``Foo`` 是一个函数， "
-"``bar`` 是一个变量。在第二行， ``Foo`` 是一个函数， ``bar`` "
-"是一个函数。然而，建议使用第三行，因为它清楚地显示了哪个是变量。"
+"``bar`` 是一个变量。在第二行， ``Foo`` 是一个函数， ``bar`` 是一个函数。然"
+"而，建议使用第三行，因为它清楚地显示了哪个是变量。"
 
 #: ../../index.rst:2
 msgid "Welcome to ZiYue4D documentation!"
@@ -480,8 +540,8 @@ msgid ""
 "on BlitzBasic. It is intended to be a modern cross-platform alternative to "
 "BlitzBasic."
 msgstr ""
-"**ZiYue4D** 是一个基于 BlitzBasic 设计的，由 LLVM "
-"驱动的编程语言。一种现代的、跨平台的 BlitzBasic 替代品。"
+"**ZiYue4D** 是一个基于 BlitzBasic 设计的，由 LLVM 驱动的编程语言。一种现代"
+"的、跨平台的 BlitzBasic 替代品。"
 
 #: ../../index.rst:8
 msgid "This project is under active development."
@@ -490,6 +550,74 @@ msgstr "该项目正在积极开发中。"
 #: ../../index.rst:11
 msgid "Contents"
 msgstr "内容"
+
+#: ../../statements.rst:2
+msgid "Statements"
+msgstr ""
+
+#: ../../statements.rst:4
+msgid ""
+"**Statements** are fragments of the program that are executed in sequence, "
+"usually contains a **condition expression**."
+msgstr ""
+
+#: ../../statements.rst:8
+msgid ""
+"``=`` operator in condition expression represents relational operation "
+"\"equals\", equavlant to ``==``."
+msgstr ""
+
+#: ../../statements.rst:11
+msgid "Selection statements"
+msgstr ""
+
+#: ../../statements.rst:13
+msgid "A **selection statement** chooses between one of several control flows."
+msgstr ""
+
+#: ../../statements.rst:16
+msgid "If statement"
+msgstr ""
+
+#: ../../statements.rst:18
+msgid "**If statement** conditionally executes another statement."
+msgstr ""
+
+#: ../../statements.rst:30
+msgid ""
+"``foo = 3.14`` is a **condition expression**, when the expression is not "
+"``0``, the **true statement** will be executed. Condition expression must "
+"returns an :ref:`integer` value. ``Then`` keyword is optional."
+msgstr ""
+
+#: ../../statements.rst:32
+msgid ""
+"You can add optional ``ElseIf`` and ``Else`` parts for different conditions. "
+"These statements can execute one at the same time. Note that ``Else`` can "
+"only be used once."
+msgstr ""
+
+#: ../../statements.rst:34
+msgid ""
+"You can also fold the if statement into a single line. Note that no "
+"``EndIf`` required."
+msgstr ""
+
+#: ../../statements.rst:41
+msgid "Iteration statements"
+msgstr ""
+
+#: ../../statements.rst:42
+msgid "An **iteration statement** repeatedly executes some code."
+msgstr ""
+
+#: ../../statements.rst:45
+msgid "While statement"
+msgstr ""
+
+#: ../../statements.rst:50
+msgid "Repeat statement"
+msgstr ""
 
 #: ../../unsafe-operations.rst:2
 msgid "Unsafe operations"
@@ -533,9 +661,9 @@ msgid ""
 "**Variables** may be of any basic data type, or a custom type. A variable's "
 "type is determined by a special character that follows its identifier. These "
 "special characters are called **type tags**."
-msgstr "**变量** "
-"可以是任何基本数据类型，或自定义类型。变量的类型由跟在其标识符后的特殊字符确"
-"定。这些特殊字符称为 **类型标签**。"
+msgstr ""
+"**变量** 可以是任何基本数据类型，或自定义类型。变量的类型由跟在其标识符后的特"
+"殊字符确定。这些特殊字符称为 **类型标签**。"
 
 #: ../../variables.rst:7
 msgid "Tag"
@@ -595,23 +723,30 @@ msgid ""
 "example, if you already have an integer variable called ``name%``, it is "
 "illegal to also have a string variable called ``name$``."
 msgstr ""
-"使用相同变量名但类型不同是非法的。例如，如果你已经将一个变量声明为 ``name%`` "
-"，那么如果你再声明另外一个变量为 ``name$`` 那就是非法的。"
+"使用相同变量名但类型不同是非法的。例如，如果你已经将一个变量声明为 "
+"``name%`` ，那么如果你再声明另外一个变量为 ``name$`` 那就是非法的。"
 
 #: ../../variables.rst:25
 msgid "Assignment"
 msgstr "赋值"
 
 #: ../../variables.rst:27
+#, fuzzy
+#| msgid ""
+#| "You can use ``=`` to assign a value to a variable. For example: ``score% "
+#| "= 0`` will assign the value ``0`` to the integer variable ``score``. This "
+#| "expression returns the assigned value, which means you can do assignment "
+#| "and comparison in a single line."
 msgid ""
 "You can use ``=`` to assign a value to a variable. For example: ``score% = "
-"0`` will assign the value ``0`` to the integer variable ``score``. This "
-"expression returns the assigned value, which means you can do assignment and "
-"comparison in a single line."
+"0`` will assign the value ``0`` to the integer variable ``score``. Note that "
+"``=`` has different semantics inside assignments or if-conditions. The "
+"example below compares whether ``bar`` equals ``3`` and assigns its result "
+"to foo."
 msgstr ""
-"你可以用 ``=`` 来为一个变量赋值。例如： ``score% = 0`` 将会把 ``0`` "
-"赋值给整型变量 ``score`` "
-"。这个表达式返回被赋的值，这意味着你可以在一行代码中同时进行赋值和比较。"
+"你可以用 ``=`` 来为一个变量赋值。例如： ``score% = 0`` 将会把 ``0`` 赋值给整"
+"型变量 ``score`` 。这个表达式返回被赋的值，这意味着你可以在一行代码中同时进行"
+"赋值和比较。"
 
 #: ../../variables.rst:34
 msgid "Scope"
@@ -624,9 +759,9 @@ msgid ""
 "anywhere in the program. ``Local`` variables can only be used within the "
 "function they are created in."
 msgstr ""
-"变量可以是 ``Global`` （全局）， 或者 ``Local`` （局部） "
-"。这指的是变量在程序中可能被使用的位置。 ``Global`` "
-"变量可以在程序的任何地方被使用。 ``Local`` 只能在被创建的函数中使用。"
+"变量可以是 ``Global`` （全局）， 或者 ``Local`` （局部） 。这指的是变量在程序"
+"中可能被使用的位置。 ``Global`` 变量可以在程序的任何地方被使用。 ``Local`` 只"
+"能在被创建的函数中使用。"
 
 #: ../../variables.rst:38
 msgid ""
@@ -651,10 +786,10 @@ msgid ""
 "definition**. This is not suggested since it creates another variable when "
 "you have a typo, leading to unexpected results."
 msgstr ""
-"上面的操作称为 **显式定义** "
-"。它表示变量声明，并在多次定义时抛出编译错误。如果你在使用变量时没有将其定义"
-"为局部或全局变量，它默认就是局部变量。这个操作称为 **隐式定义** "
-"。不建议这样做，因为在输入错误时会创建另一个变量，从而导致意外的结果。"
+"上面的操作称为 **显式定义** 。它表示变量声明，并在多次定义时抛出编译错误。如"
+"果你在使用变量时没有将其定义为局部或全局变量，它默认就是局部变量。这个操作称"
+"为 **隐式定义** 。不建议这样做，因为在输入错误时会创建另一个变量，从而导致意"
+"外的结果。"
 
 #: ../../variables.rst:54
 msgid ""
@@ -663,6 +798,8 @@ msgid ""
 "compiler to force the program to use explicit definition, and disable "
 "implicit definition."
 msgstr ""
-"强烈建议使用 ``Local`` 或 ``Global`` "
-"来声明变量，因为这是更安全的做法。你也可以在编译器中启用安全检查，强制程序使"
-"用显式定义，并禁用隐式定义。"
+"强烈建议使用 ``Local`` 或 ``Global`` 来声明变量，因为这是更安全的做法。你也可"
+"以在编译器中启用安全检查，强制程序使用显式定义，并禁用隐式定义。"
+
+#~ msgid "There are 4 basic data types:"
+#~ msgstr "ZiYue4D 中共有 4 种数据类型："
