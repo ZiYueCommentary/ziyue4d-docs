@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: ZiYue4D 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-10-08 11:43+0800\n"
-"PO-Revision-Date: 2025-10-09 04:05+0000\n"
-"Last-Translator: 子悦解说 <ziyuecommentary@gmail.com>\n"
+"PO-Revision-Date: 2025-10-18 09:05+0000\n"
+"Last-Translator: 晨魔 <morningdemon515@outlook.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
 "weblate.ziyuesinicization.site/projects/ziyue4d/documentation/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -305,23 +305,21 @@ msgstr "常量"
 msgid ""
 "**Constants** are fixed values that  will not change during the course of "
 "the program. These are useful when you want to name immutable values."
-msgstr ""
+msgstr "**常量** "
+"是在程序运行过程中不会改变的固定值。当你想为不可变的值命名时，它们非常有用。"
 
 #: ../../constants.rst:6
 msgid ""
 "Constants can be most of :ref:`basic-data-types`, excluding :ref:`pointer`. "
 "Expression of constants must be evaluated during compilation."
-msgstr ""
+msgstr "常量可以是大多数 :ref:`basic-data-types`，但不包括 "
+":ref:`pointer`。常量的表达式必须在编译期间求值。"
 
 #: ../../constants.rst:8
-#, fuzzy
-#| msgid ""
-#| "The ``Global`` keyword is used to define one or more global variables. "
-#| "For example:"
 msgid ""
 "The ``Const`` keyword is used to assign an identifier to a constant. For "
 "example:"
-msgstr "``Global`` 关键字用于定义一个或多个全局变量。例如："
+msgstr "``Global`` 关键字用于为常量分配一个标识符。例如："
 
 #: ../../constants.rst:14
 msgid ""
@@ -330,20 +328,25 @@ msgid ""
 "``width`` and ``height`` values, you only have to do so at one place in the "
 "program."
 msgstr ""
+"然后，你可以在整个程序中使用更易读的 ``width`` 和 ``height`` ，而不是使用 "
+"``640`` 和 ``480`` 。此外，如果你决定更改 ``width`` 和 ``height`` "
+"的值，只需在程序中的一个地方修改即可。"
 
 #: ../../constants.rst:18
 msgid ""
 "Using another constant in the constant expression is undefined behavior, "
 "since the initialization order does not depend on their order in the source "
 "code."
-msgstr ""
+msgstr "在常量表达式中使用另一个常量是未定义行为，因为初始化顺序不依赖于它们在源代码"
+"中的顺序。"
 
 #: ../../constants.rst:20
 msgid ""
 "The example below shows this behavior. When the compiler initializes "
 "``foo%`` before ``bar%``, this code will work properly. Conversely, it "
 "causes a compiler error."
-msgstr ""
+msgstr "下面的示例展示了这种行为。当编译器在初始化 ``bar%`` 之前初始化 ``foo%`` "
+"时，这段代码将正常运行。相反，它会导致编译器错误。"
 
 #: ../../functions.rst:2
 msgid "Functions"
@@ -418,7 +421,8 @@ msgstr "外部函数"
 msgid ""
 "The signature of exteral function is case-sensitive. Mismatched case will "
 "cause linker error. However, calling exteral function is not case-sensitive."
-msgstr ""
+msgstr "外部函数的签名是区分大小写的。大小写不匹配会导致链接器错误。然而，调用外部函"
+"数时不区分大小写。"
 
 #: ../../functions.rst:40
 msgid ""
@@ -555,35 +559,35 @@ msgstr "内容"
 
 #: ../../statements.rst:2
 msgid "Statements"
-msgstr ""
+msgstr "语句"
 
 #: ../../statements.rst:4
 msgid ""
 "**Statements** are fragments of the program that are executed in sequence, "
 "usually contains a **condition expression**."
-msgstr ""
+msgstr "**语句** 是按顺序执行的程序片段，通常包含一个 **条件表达式** 。"
 
 #: ../../statements.rst:8
 msgid ""
 "``=`` operator in condition expression represents relational operation "
 "\"equals\", equavlant to ``==``."
-msgstr ""
+msgstr "条件表达式中的 ``=`` 运算符表示关系操作“等于”，相当于 ``==`` 。"
 
 #: ../../statements.rst:11
 msgid "Selection statements"
-msgstr ""
+msgstr "选择语句"
 
 #: ../../statements.rst:13
 msgid "A **selection statement** chooses between one of several control flows."
-msgstr ""
+msgstr "**选择语句** 在多个控制流之间进行选择。"
 
 #: ../../statements.rst:16
 msgid "If statement"
-msgstr ""
+msgstr "If 语句"
 
 #: ../../statements.rst:18
 msgid "**If statement** conditionally executes another statement."
-msgstr ""
+msgstr "**If语句** 有条件地执行另一条语句。"
 
 #: ../../statements.rst:30
 msgid ""
@@ -591,6 +595,9 @@ msgid ""
 "``0``, the **true statement** will be executed. Condition expression must "
 "returns an :ref:`integer` value. ``Then`` keyword is optional."
 msgstr ""
+"``foo = 3.14`` 是一个 **条件表达式** ，当表达式不等于 ``0`` 时，将执行 **"
+"true 语句** 。条件表达式必须返回一个 :ref:`integer` 值。 ``Then`` "
+"关键字是可选的。"
 
 #: ../../statements.rst:32
 msgid ""
@@ -598,28 +605,30 @@ msgid ""
 "These statements can execute one at the same time. Note that ``Else`` can "
 "only be used once."
 msgstr ""
+"你可以为不同的条件添加可选的 ``ElseIf`` 和 ``Else`` "
+"部分。这些语句每次只能执行其中一个。请注意， ``Else`` 只能使用一次。"
 
 #: ../../statements.rst:34
 msgid ""
 "You can also fold the if statement into a single line. Note that no "
 "``EndIf`` required."
-msgstr ""
+msgstr "你也可以将 if 语句折叠成一行。注意不需要 ``EndIf`` 。"
 
 #: ../../statements.rst:41
 msgid "Iteration statements"
-msgstr ""
+msgstr "循环语句"
 
 #: ../../statements.rst:42
 msgid "An **iteration statement** repeatedly executes some code."
-msgstr ""
+msgstr "**循环语句** 可以重复执行相同的代码。"
 
 #: ../../statements.rst:45
 msgid "While statement"
-msgstr ""
+msgstr "While语句"
 
 #: ../../statements.rst:50
 msgid "Repeat statement"
-msgstr ""
+msgstr "Repeat语句"
 
 #: ../../unsafe-operations.rst:2
 msgid "Unsafe operations"
@@ -733,12 +742,6 @@ msgid "Assignment"
 msgstr "赋值"
 
 #: ../../variables.rst:27
-#, fuzzy
-#| msgid ""
-#| "You can use ``=`` to assign a value to a variable. For example: ``score% "
-#| "= 0`` will assign the value ``0`` to the integer variable ``score``. This "
-#| "expression returns the assigned value, which means you can do assignment "
-#| "and comparison in a single line."
 msgid ""
 "You can use ``=`` to assign a value to a variable. For example: ``score% = "
 "0`` will assign the value ``0`` to the integer variable ``score``. Note that "
@@ -746,9 +749,9 @@ msgid ""
 "example below compares whether ``bar`` equals ``3`` and assigns its result "
 "to foo."
 msgstr ""
-"你可以用 ``=`` 来为一个变量赋值。例如： ``score% = 0`` 将会把 ``0`` 赋值给整"
-"型变量 ``score`` 。这个表达式返回被赋的值，这意味着你可以在一行代码中同时进行"
-"赋值和比较。"
+"你可以使用 ``=`` 将值赋给变量。例如： ``score% = 0`` 会将值 ``0`` "
+"赋给整数变量 ``score`` 。请注意， ``=`` 在赋值或 if 条件中具有不同的语义。"
+"下面的示例比较 ``bar`` 是否等于 ``3`` ，并将结果赋给 ``foo`` 。"
 
 #: ../../variables.rst:34
 msgid "Scope"
